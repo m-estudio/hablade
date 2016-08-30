@@ -9,8 +9,8 @@ image bg sakuza = "sakuza.jpg"
 
 # 下方的define命令可定义游戏中出现的角色名称与对应文本颜色。
 # 译注：define还可以定义很多功能，具体请参阅官方文档。
-define ha = Character(u'虫忍合', color="#fafafa")
-define what = Character(u'？？？',color="#fafafa")
+define ha = Character(u'虫忍合', color="#66ccff")
+define what = Character(u'？？？',color="#ff66cc")
 define mom = Character(u'母上',color="#fafafa")
 # 引用游戏OP视频，在进入程序主菜单显示前自动播放。
 # 此处也可以使用图片代替。
@@ -99,32 +99,3 @@ label wakeup:
         "去吃尸米":
             jump dead3
     return 
-label dead1:
-
-    what"职业这么重要的事情，怎么能不慎重？"
-    "虫忍合狗带了"
-    "Dead Ending."
-
-    return
-label dead2:
-    
-    what "哼。果然走后门进来的就没什么好货。去死吧。"
-    ha "你说什么？……啊……"
-    "虫忍合狗带了"
-    "Dead Ending."
-
-    return
-label biandang:
-    "半小时后……"
-    "你要的便当到了，领一下。"
-    "虫忍合狗带了"
-    "Dead Ending."
-
-    return
-label dead3:
-    scene bg WC
-    ha "不小心吃太多了……噎到了……"
-    "虫忍合狗带了"
-    "Dead Ending."
-
-    return
