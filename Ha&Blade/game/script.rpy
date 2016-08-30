@@ -12,6 +12,7 @@ image bg sakuza = "sakuza.jpg"
 define ha = Character(u'虫忍合', color="#66ccff")
 define what = Character(u'？？？',color="#ff66cc")
 define mom = Character(u'母上',color="#fafafa")
+define jade = Character(u'玉华',color="#990066")
 # 引用游戏OP视频，在进入程序主菜单显示前自动播放。
 # 此处也可以使用图片代替。
 # label splashscreen:

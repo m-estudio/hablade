@@ -2,6 +2,6 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 20: Tab characters are not allowed in Ren'Py scripts.
+File "game/script.rpy", line 54: Tab characters are not allowed in Ren'Py scripts.
 
 Ren'Py Version: Ren'Py 6.99.10.1227
