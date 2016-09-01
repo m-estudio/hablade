@@ -74,10 +74,7 @@ label start:
     ha "什么设定？这就真打了？……"
     "进入战斗"
 #战斗
-    if entryFlag:
-        jump dead2
-    what "不错，看你骨骼清奇，是个可造之才。半个月后开学，尽早收拾启程吧。"
-    ha "蛤？这就入学考？"
+    jump entry
 label wakeup:
 #    scene bg bedroom
 #    with dissolve
@@ -99,4 +96,5 @@ label wakeup:
                     Uattack += 5
         "去吃尸米":
             jump dead3
+
     return 
