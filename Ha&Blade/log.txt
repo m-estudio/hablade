@@ -1,21 +1,21 @@
-Thu Sep 01 18:00:06 2016
+Fri Sep 02 12:56:37 2016
 Windows-XP-5.1.2600-SP3
 Ren'Py 6.99.10.1227
  
 
-Bootstrap to the start of init.init took 0.19s
-Early init took 0.03s
-Loader init took 0.02s
-Loading error handling took 0.05s
-Loading script took 0.31s
-Loading persistent took 0.02s
+Bootstrap to the start of init.init took 0.20s
+Early init took 0.02s
+Loader init took 0.05s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.16s
-Loading analysis data took 0.02s
+Running init code took 0.19s
+Loading analysis data took 0.09s
 Analyze and compile ATL took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
-Dump and make backups. took 0.16s
+Dump and make backups. took 0.17s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Could not determine DPI scale factor:
@@ -28,717 +28,13 @@ AttributeError: function 'SetProcessDPIAware' not found
 DPI scale factor: 1.000000
 Creating interface object took 0.12s
 Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.11s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.09s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.02s
-
-primary display bounds: (0, 0, 1280, 1024)
-Windowed mode.
-Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
-Vendor: 'ATI Technologies Inc.'
-Renderer: 'AMD 760G'
-Version: '3.3.10188 Compatibility Profile Context'
-Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
-Fixed-function is blacklisted.
-Extensions:
-    GL_AMDX_debug_output
-    GL_AMD_conservative_depth
-    GL_AMD_debug_output
-    GL_AMD_draw_buffers_blend
-    GL_AMD_name_gen_delete
-    GL_AMD_performance_monitor
-    GL_AMD_sample_positions
-    GL_AMD_shader_stencil_export
-    GL_ARB_blend_func_extended
-    GL_ARB_color_buffer_float
-    GL_ARB_copy_buffer
-    GL_ARB_depth_buffer_float
-    GL_ARB_depth_clamp
-    GL_ARB_depth_texture
-    GL_ARB_draw_buffers
-    GL_ARB_draw_buffers_blend
-    GL_ARB_draw_elements_base_vertex
-    GL_ARB_draw_instanced
-    GL_ARB_explicit_attrib_location
-    GL_ARB_fragment_coord_conventions
-    GL_ARB_fragment_program
-    GL_ARB_fragment_program_shadow
-    GL_ARB_fragment_shader
-    GL_ARB_framebuffer_object
-    GL_ARB_framebuffer_sRGB
-    GL_ARB_geometry_shader4
-    GL_ARB_half_float_pixel
-    GL_ARB_half_float_vertex
-    GL_ARB_imaging
-    GL_ARB_instanced_arrays
-    GL_ARB_map_buffer_range
-    GL_ARB_multisample
-    GL_ARB_multitexture
-    GL_ARB_occlusion_query
-    GL_ARB_occlusion_query2
-    GL_ARB_pixel_buffer_object
-    GL_ARB_point_parameters
-    GL_ARB_point_sprite
-    GL_ARB_provoking_vertex
-    GL_ARB_sampler_objects
-    GL_ARB_seamless_cube_map
-    GL_ARB_shader_bit_encoding
-    GL_ARB_shader_objects
-    GL_ARB_shader_texture_lod
-    GL_ARB_shading_language_100
-    GL_ARB_shadow
-    GL_ARB_shadow_ambient
-    GL_ARB_sync
-    GL_ARB_texture_border_clamp
-    GL_ARB_texture_buffer_object
-    GL_ARB_texture_compression
-    GL_ARB_texture_compression_rgtc
-    GL_ARB_texture_cube_map
-    GL_ARB_texture_env_add
-    GL_ARB_texture_env_combine
-    GL_ARB_texture_env_crossbar
-    GL_ARB_texture_env_dot3
-    GL_ARB_texture_float
-    GL_ARB_texture_mirrored_repeat
-    GL_ARB_texture_multisample
-    GL_ARB_texture_non_power_of_two
-    GL_ARB_texture_rectangle
-    GL_ARB_texture_rg
-    GL_ARB_texture_rgb10_a2ui
-    GL_ARB_texture_snorm
-    GL_ARB_timer_query
-    GL_ARB_transform_feedback2
-    GL_ARB_transform_feedback3
-    GL_ARB_transpose_matrix
-    GL_ARB_uniform_buffer_object
-    GL_ARB_vertex_array_bgra
-    GL_ARB_vertex_array_object
-    GL_ARB_vertex_buffer_object
-    GL_ARB_vertex_program
-    GL_ARB_vertex_shader
-    GL_ARB_vertex_type_2_10_10_10_rev
-    GL_ARB_window_pos
-    GL_ATI_draw_buffers
-    GL_ATI_envmap_bumpmap
-    GL_ATI_fragment_shader
-    GL_ATI_meminfo
-    GL_ATI_separate_stencil
-    GL_ATI_texture_compression_3dc
-    GL_ATI_texture_env_combine3
-    GL_ATI_texture_float
-    GL_ATI_texture_mirror_once
-    GL_EXT_abgr
-    GL_EXT_bgra
-    GL_EXT_bindable_uniform
-    GL_EXT_blend_color
-    GL_EXT_blend_equation_separate
-    GL_EXT_blend_func_separate
-    GL_EXT_blend_minmax
-    GL_EXT_blend_subtract
-    GL_EXT_compiled_vertex_array
-    GL_EXT_copy_buffer
-    GL_EXT_copy_texture
-    GL_EXT_direct_state_access
-    GL_EXT_draw_buffers2
-    GL_EXT_draw_instanced
-    GL_EXT_draw_range_elements
-    GL_EXT_fog_coord
-    GL_EXT_framebuffer_blit
-    GL_EXT_framebuffer_multisample
-    GL_EXT_framebuffer_object
-    GL_EXT_framebuffer_sRGB
-    GL_EXT_geometry_shader4
-    GL_EXT_gpu_program_parameters
-    GL_EXT_gpu_shader4
-    GL_EXT_histogram
-    GL_EXT_multi_draw_arrays
-    GL_EXT_packed_depth_stencil
-    GL_EXT_packed_float
-    GL_EXT_packed_pixels
-    GL_EXT_pixel_buffer_object
-    GL_EXT_point_parameters
-    GL_EXT_provoking_vertex
-    GL_EXT_rescale_normal
-    GL_EXT_secondary_color
-    GL_EXT_separate_specular_color
-    GL_EXT_shadow_funcs
-    GL_EXT_stencil_wrap
-    GL_EXT_subtexture
-    GL_EXT_texgen_reflection
-    GL_EXT_texture3D
-    GL_EXT_texture_array
-    GL_EXT_texture_buffer_object
-    GL_EXT_texture_buffer_object_rgb32
-    GL_EXT_texture_compression_latc
-    GL_EXT_texture_compression_rgtc
-    GL_EXT_texture_compression_s3tc
-    GL_EXT_texture_cube_map
-    GL_EXT_texture_edge_clamp
-    GL_EXT_texture_env_add
-    GL_EXT_texture_env_combine
-    GL_EXT_texture_env_dot3
-    GL_EXT_texture_filter_anisotropic
-    GL_EXT_texture_integer
-    GL_EXT_texture_lod
-    GL_EXT_texture_lod_bias
-    GL_EXT_texture_mirror_clamp
-    GL_EXT_texture_object
-    GL_EXT_texture_rectangle
-    GL_EXT_texture_sRGB
-    GL_EXT_texture_shared_exponent
-    GL_EXT_texture_snorm
-    GL_EXT_texture_swizzle
-    GL_EXT_timer_query
-    GL_EXT_transform_feedback
-    GL_EXT_vertex_array
-    GL_EXT_vertex_array_bgra
-    GL_IBM_texture_mirrored_repeat
-    GL_KTX_buffer_region
-    GL_NV_blend_square
-    GL_NV_conditional_render
-    GL_NV_copy_depth_to_color
-    GL_NV_explicit_multisample
-    GL_NV_float_buffer
-    GL_NV_half_float
-    GL_NV_primitive_restart
-    GL_NV_texgen_reflection
-    GL_SGIS_generate_mipmap
-    GL_SGIS_texture_edge_clamp
-    GL_SGIS_texture_lod
-    GL_SUN_multi_draw_arrays
-    GL_WIN_swap_hint
-    WGL_EXT_swap_control
-Number of texture units: 8
-Using shader environment.
-Using copy RTT.
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 8192
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Total time until interface ready: 2.51600003242s
-- Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.031000 seconds.
-- Frame drawn at 0.031000 seconds.
-- Frame drawn at 0.031000 seconds.
-- Frame drawn at 0.031000 seconds.
-- 0.031000 seconds to render 5 frames.
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
-    node.execute()
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 806, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy-6.99.10-sdk\renpy\python.py", line 1577, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/battle.rpy", line 26, in <module>
-    battle.AddFaction("ç©å®¶", playerFaction=True)
-  File "game/battle-engine/engine.rpy", line 363, in AddFaction
-    faction = str(faction)
-UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
-Bootstrap to the start of init.init took 39.95s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.17s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.09s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
-Dump and make backups. took 0.16s
-Cleaning cache took 0.00s
-Making clean stores took 0.02s
-Could not determine DPI scale factor:
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
-    ctypes.windll.user32.SetProcessDPIAware()
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
-AttributeError: function 'SetProcessDPIAware' not found
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.00s
+Build styles took 0.02s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.08s
-Prepare screens took 0.08s
+Analyze screens took 0.03s
+Save screen analysis took 0.09s
+Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.09s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.02s
-
-primary display bounds: (0, 0, 1280, 1024)
-Windowed mode.
-Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
-Vendor: 'ATI Technologies Inc.'
-Renderer: 'AMD 760G'
-Version: '3.3.10188 Compatibility Profile Context'
-Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
-Fixed-function is blacklisted.
-Extensions:
-    GL_AMDX_debug_output
-    GL_AMD_conservative_depth
-    GL_AMD_debug_output
-    GL_AMD_draw_buffers_blend
-    GL_AMD_name_gen_delete
-    GL_AMD_performance_monitor
-    GL_AMD_sample_positions
-    GL_AMD_shader_stencil_export
-    GL_ARB_blend_func_extended
-    GL_ARB_color_buffer_float
-    GL_ARB_copy_buffer
-    GL_ARB_depth_buffer_float
-    GL_ARB_depth_clamp
-    GL_ARB_depth_texture
-    GL_ARB_draw_buffers
-    GL_ARB_draw_buffers_blend
-    GL_ARB_draw_elements_base_vertex
-    GL_ARB_draw_instanced
-    GL_ARB_explicit_attrib_location
-    GL_ARB_fragment_coord_conventions
-    GL_ARB_fragment_program
-    GL_ARB_fragment_program_shadow
-    GL_ARB_fragment_shader
-    GL_ARB_framebuffer_object
-    GL_ARB_framebuffer_sRGB
-    GL_ARB_geometry_shader4
-    GL_ARB_half_float_pixel
-    GL_ARB_half_float_vertex
-    GL_ARB_imaging
-    GL_ARB_instanced_arrays
-    GL_ARB_map_buffer_range
-    GL_ARB_multisample
-    GL_ARB_multitexture
-    GL_ARB_occlusion_query
-    GL_ARB_occlusion_query2
-    GL_ARB_pixel_buffer_object
-    GL_ARB_point_parameters
-    GL_ARB_point_sprite
-    GL_ARB_provoking_vertex
-    GL_ARB_sampler_objects
-    GL_ARB_seamless_cube_map
-    GL_ARB_shader_bit_encoding
-    GL_ARB_shader_objects
-    GL_ARB_shader_texture_lod
-    GL_ARB_shading_language_100
-    GL_ARB_shadow
-    GL_ARB_shadow_ambient
-    GL_ARB_sync
-    GL_ARB_texture_border_clamp
-    GL_ARB_texture_buffer_object
-    GL_ARB_texture_compression
-    GL_ARB_texture_compression_rgtc
-    GL_ARB_texture_cube_map
-    GL_ARB_texture_env_add
-    GL_ARB_texture_env_combine
-    GL_ARB_texture_env_crossbar
-    GL_ARB_texture_env_dot3
-    GL_ARB_texture_float
-    GL_ARB_texture_mirrored_repeat
-    GL_ARB_texture_multisample
-    GL_ARB_texture_non_power_of_two
-    GL_ARB_texture_rectangle
-    GL_ARB_texture_rg
-    GL_ARB_texture_rgb10_a2ui
-    GL_ARB_texture_snorm
-    GL_ARB_timer_query
-    GL_ARB_transform_feedback2
-    GL_ARB_transform_feedback3
-    GL_ARB_transpose_matrix
-    GL_ARB_uniform_buffer_object
-    GL_ARB_vertex_array_bgra
-    GL_ARB_vertex_array_object
-    GL_ARB_vertex_buffer_object
-    GL_ARB_vertex_program
-    GL_ARB_vertex_shader
-    GL_ARB_vertex_type_2_10_10_10_rev
-    GL_ARB_window_pos
-    GL_ATI_draw_buffers
-    GL_ATI_envmap_bumpmap
-    GL_ATI_fragment_shader
-    GL_ATI_meminfo
-    GL_ATI_separate_stencil
-    GL_ATI_texture_compression_3dc
-    GL_ATI_texture_env_combine3
-    GL_ATI_texture_float
-    GL_ATI_texture_mirror_once
-    GL_EXT_abgr
-    GL_EXT_bgra
-    GL_EXT_bindable_uniform
-    GL_EXT_blend_color
-    GL_EXT_blend_equation_separate
-    GL_EXT_blend_func_separate
-    GL_EXT_blend_minmax
-    GL_EXT_blend_subtract
-    GL_EXT_compiled_vertex_array
-    GL_EXT_copy_buffer
-    GL_EXT_copy_texture
-    GL_EXT_direct_state_access
-    GL_EXT_draw_buffers2
-    GL_EXT_draw_instanced
-    GL_EXT_draw_range_elements
-    GL_EXT_fog_coord
-    GL_EXT_framebuffer_blit
-    GL_EXT_framebuffer_multisample
-    GL_EXT_framebuffer_object
-    GL_EXT_framebuffer_sRGB
-    GL_EXT_geometry_shader4
-    GL_EXT_gpu_program_parameters
-    GL_EXT_gpu_shader4
-    GL_EXT_histogram
-    GL_EXT_multi_draw_arrays
-    GL_EXT_packed_depth_stencil
-    GL_EXT_packed_float
-    GL_EXT_packed_pixels
-    GL_EXT_pixel_buffer_object
-    GL_EXT_point_parameters
-    GL_EXT_provoking_vertex
-    GL_EXT_rescale_normal
-    GL_EXT_secondary_color
-    GL_EXT_separate_specular_color
-    GL_EXT_shadow_funcs
-    GL_EXT_stencil_wrap
-    GL_EXT_subtexture
-    GL_EXT_texgen_reflection
-    GL_EXT_texture3D
-    GL_EXT_texture_array
-    GL_EXT_texture_buffer_object
-    GL_EXT_texture_buffer_object_rgb32
-    GL_EXT_texture_compression_latc
-    GL_EXT_texture_compression_rgtc
-    GL_EXT_texture_compression_s3tc
-    GL_EXT_texture_cube_map
-    GL_EXT_texture_edge_clamp
-    GL_EXT_texture_env_add
-    GL_EXT_texture_env_combine
-    GL_EXT_texture_env_dot3
-    GL_EXT_texture_filter_anisotropic
-    GL_EXT_texture_integer
-    GL_EXT_texture_lod
-    GL_EXT_texture_lod_bias
-    GL_EXT_texture_mirror_clamp
-    GL_EXT_texture_object
-    GL_EXT_texture_rectangle
-    GL_EXT_texture_sRGB
-    GL_EXT_texture_shared_exponent
-    GL_EXT_texture_snorm
-    GL_EXT_texture_swizzle
-    GL_EXT_timer_query
-    GL_EXT_transform_feedback
-    GL_EXT_vertex_array
-    GL_EXT_vertex_array_bgra
-    GL_IBM_texture_mirrored_repeat
-    GL_KTX_buffer_region
-    GL_NV_blend_square
-    GL_NV_conditional_render
-    GL_NV_copy_depth_to_color
-    GL_NV_explicit_multisample
-    GL_NV_float_buffer
-    GL_NV_half_float
-    GL_NV_primitive_restart
-    GL_NV_texgen_reflection
-    GL_SGIS_generate_mipmap
-    GL_SGIS_texture_edge_clamp
-    GL_SGIS_texture_lod
-    GL_SUN_multi_draw_arrays
-    GL_WIN_swap_hint
-    WGL_EXT_swap_control
-Number of texture units: 8
-Using shader environment.
-Using copy RTT.
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 8192
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Total time until interface ready: 41.1099998951s
-- Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.063000 seconds.
-- Frame drawn at 0.079000 seconds.
-- Frame drawn at 0.079000 seconds.
-- Frame drawn at 0.079000 seconds.
-- 0.079000 seconds to render 5 frames.
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
-    node.execute()
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 806, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy-6.99.10-sdk\renpy\python.py", line 1577, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/battle.rpy", line 50, in <module>
-    ha.RegisterSkill(Library.Skills.SwordAttack)
-NameError: name 'Library' is not defined
-Bootstrap to the start of init.init took 92.20s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.98s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
-    node.execute()
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 806, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy-6.99.10-sdk\renpy\python.py", line 1577, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/battle-engine/assets.rpy", line 168, in <module>
-    Library.Items.Potion = PotionItem(cost=20)
-NameError: name 'PotionItem' is not defined
-Could not determine DPI scale factor:
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
-    ctypes.windll.user32.SetProcessDPIAware()
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
-AttributeError: function 'SetProcessDPIAware' not found
-DPI scale factor: 1.000000
-Interface start took 0.23s
-
-primary display bounds: (0, 0, 1280, 1024)
-Windowed mode.
-Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
-Vendor: 'ATI Technologies Inc.'
-Renderer: 'AMD 760G'
-Version: '3.3.10188 Compatibility Profile Context'
-Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
-Fixed-function is blacklisted.
-Extensions:
-    GL_AMDX_debug_output
-    GL_AMD_conservative_depth
-    GL_AMD_debug_output
-    GL_AMD_draw_buffers_blend
-    GL_AMD_name_gen_delete
-    GL_AMD_performance_monitor
-    GL_AMD_sample_positions
-    GL_AMD_shader_stencil_export
-    GL_ARB_blend_func_extended
-    GL_ARB_color_buffer_float
-    GL_ARB_copy_buffer
-    GL_ARB_depth_buffer_float
-    GL_ARB_depth_clamp
-    GL_ARB_depth_texture
-    GL_ARB_draw_buffers
-    GL_ARB_draw_buffers_blend
-    GL_ARB_draw_elements_base_vertex
-    GL_ARB_draw_instanced
-    GL_ARB_explicit_attrib_location
-    GL_ARB_fragment_coord_conventions
-    GL_ARB_fragment_program
-    GL_ARB_fragment_program_shadow
-    GL_ARB_fragment_shader
-    GL_ARB_framebuffer_object
-    GL_ARB_framebuffer_sRGB
-    GL_ARB_geometry_shader4
-    GL_ARB_half_float_pixel
-    GL_ARB_half_float_vertex
-    GL_ARB_imaging
-    GL_ARB_instanced_arrays
-    GL_ARB_map_buffer_range
-    GL_ARB_multisample
-    GL_ARB_multitexture
-    GL_ARB_occlusion_query
-    GL_ARB_occlusion_query2
-    GL_ARB_pixel_buffer_object
-    GL_ARB_point_parameters
-    GL_ARB_point_sprite
-    GL_ARB_provoking_vertex
-    GL_ARB_sampler_objects
-    GL_ARB_seamless_cube_map
-    GL_ARB_shader_bit_encoding
-    GL_ARB_shader_objects
-    GL_ARB_shader_texture_lod
-    GL_ARB_shading_language_100
-    GL_ARB_shadow
-    GL_ARB_shadow_ambient
-    GL_ARB_sync
-    GL_ARB_texture_border_clamp
-    GL_ARB_texture_buffer_object
-    GL_ARB_texture_compression
-    GL_ARB_texture_compression_rgtc
-    GL_ARB_texture_cube_map
-    GL_ARB_texture_env_add
-    GL_ARB_texture_env_combine
-    GL_ARB_texture_env_crossbar
-    GL_ARB_texture_env_dot3
-    GL_ARB_texture_float
-    GL_ARB_texture_mirrored_repeat
-    GL_ARB_texture_multisample
-    GL_ARB_texture_non_power_of_two
-    GL_ARB_texture_rectangle
-    GL_ARB_texture_rg
-    GL_ARB_texture_rgb10_a2ui
-    GL_ARB_texture_snorm
-    GL_ARB_timer_query
-    GL_ARB_transform_feedback2
-    GL_ARB_transform_feedback3
-    GL_ARB_transpose_matrix
-    GL_ARB_uniform_buffer_object
-    GL_ARB_vertex_array_bgra
-    GL_ARB_vertex_array_object
-    GL_ARB_vertex_buffer_object
-    GL_ARB_vertex_program
-    GL_ARB_vertex_shader
-    GL_ARB_vertex_type_2_10_10_10_rev
-    GL_ARB_window_pos
-    GL_ATI_draw_buffers
-    GL_ATI_envmap_bumpmap
-    GL_ATI_fragment_shader
-    GL_ATI_meminfo
-    GL_ATI_separate_stencil
-    GL_ATI_texture_compression_3dc
-    GL_ATI_texture_env_combine3
-    GL_ATI_texture_float
-    GL_ATI_texture_mirror_once
-    GL_EXT_abgr
-    GL_EXT_bgra
-    GL_EXT_bindable_uniform
-    GL_EXT_blend_color
-    GL_EXT_blend_equation_separate
-    GL_EXT_blend_func_separate
-    GL_EXT_blend_minmax
-    GL_EXT_blend_subtract
-    GL_EXT_compiled_vertex_array
-    GL_EXT_copy_buffer
-    GL_EXT_copy_texture
-    GL_EXT_direct_state_access
-    GL_EXT_draw_buffers2
-    GL_EXT_draw_instanced
-    GL_EXT_draw_range_elements
-    GL_EXT_fog_coord
-    GL_EXT_framebuffer_blit
-    GL_EXT_framebuffer_multisample
-    GL_EXT_framebuffer_object
-    GL_EXT_framebuffer_sRGB
-    GL_EXT_geometry_shader4
-    GL_EXT_gpu_program_parameters
-    GL_EXT_gpu_shader4
-    GL_EXT_histogram
-    GL_EXT_multi_draw_arrays
-    GL_EXT_packed_depth_stencil
-    GL_EXT_packed_float
-    GL_EXT_packed_pixels
-    GL_EXT_pixel_buffer_object
-    GL_EXT_point_parameters
-    GL_EXT_provoking_vertex
-    GL_EXT_rescale_normal
-    GL_EXT_secondary_color
-    GL_EXT_separate_specular_color
-    GL_EXT_shadow_funcs
-    GL_EXT_stencil_wrap
-    GL_EXT_subtexture
-    GL_EXT_texgen_reflection
-    GL_EXT_texture3D
-    GL_EXT_texture_array
-    GL_EXT_texture_buffer_object
-    GL_EXT_texture_buffer_object_rgb32
-    GL_EXT_texture_compression_latc
-    GL_EXT_texture_compression_rgtc
-    GL_EXT_texture_compression_s3tc
-    GL_EXT_texture_cube_map
-    GL_EXT_texture_edge_clamp
-    GL_EXT_texture_env_add
-    GL_EXT_texture_env_combine
-    GL_EXT_texture_env_dot3
-    GL_EXT_texture_filter_anisotropic
-    GL_EXT_texture_integer
-    GL_EXT_texture_lod
-    GL_EXT_texture_lod_bias
-    GL_EXT_texture_mirror_clamp
-    GL_EXT_texture_object
-    GL_EXT_texture_rectangle
-    GL_EXT_texture_sRGB
-    GL_EXT_texture_shared_exponent
-    GL_EXT_texture_snorm
-    GL_EXT_texture_swizzle
-    GL_EXT_timer_query
-    GL_EXT_transform_feedback
-    GL_EXT_vertex_array
-    GL_EXT_vertex_array_bgra
-    GL_IBM_texture_mirrored_repeat
-    GL_KTX_buffer_region
-    GL_NV_blend_square
-    GL_NV_conditional_render
-    GL_NV_copy_depth_to_color
-    GL_NV_explicit_multisample
-    GL_NV_float_buffer
-    GL_NV_half_float
-    GL_NV_primitive_restart
-    GL_NV_texgen_reflection
-    GL_SGIS_generate_mipmap
-    GL_SGIS_texture_edge_clamp
-    GL_SGIS_texture_lod
-    GL_SUN_multi_draw_arrays
-    GL_WIN_swap_hint
-    WGL_EXT_swap_control
-Number of texture units: 8
-Using shader environment.
-Using copy RTT.
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 8192
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Total time until interface ready: 93.8440001011s
-Bootstrap to the start of init.init took 207.26s
-Early init took 0.00s
-Loader init took 0.03s
-Loading error handling took 0.03s
-Loading script took 0.61s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
-Dump and make backups. took 0.22s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Could not determine DPI scale factor:
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
-    ctypes.windll.user32.SetProcessDPIAware()
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
-AttributeError: function 'SetProcessDPIAware' not found
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.05s
-Save screen analysis took 0.11s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.14s
 Save bytecode. took 0.11s
 Running _start took 0.00s
 Performance test:
@@ -932,7 +228,1001 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 209.359999895s
+Total time until interface ready: 2.625s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.031000 seconds.
+- Frame drawn at 0.031000 seconds.
+- Frame drawn at 0.031000 seconds.
+- 0.031000 seconds to render 5 frames.
+Bootstrap to the start of init.init took 28.28s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 0.24s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.17s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
+Dump and make backups. took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Could not determine DPI scale factor:
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
+    ctypes.windll.user32.SetProcessDPIAware()
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
+AttributeError: function 'SetProcessDPIAware' not found
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.11s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.09s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.02s
+
+primary display bounds: (0, 0, 1280, 1024)
+Windowed mode.
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
+Vendor: 'ATI Technologies Inc.'
+Renderer: 'AMD 760G'
+Version: '3.3.10188 Compatibility Profile Context'
+Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
+Fixed-function is blacklisted.
+Extensions:
+    GL_AMDX_debug_output
+    GL_AMD_conservative_depth
+    GL_AMD_debug_output
+    GL_AMD_draw_buffers_blend
+    GL_AMD_name_gen_delete
+    GL_AMD_performance_monitor
+    GL_AMD_sample_positions
+    GL_AMD_shader_stencil_export
+    GL_ARB_blend_func_extended
+    GL_ARB_color_buffer_float
+    GL_ARB_copy_buffer
+    GL_ARB_depth_buffer_float
+    GL_ARB_depth_clamp
+    GL_ARB_depth_texture
+    GL_ARB_draw_buffers
+    GL_ARB_draw_buffers_blend
+    GL_ARB_draw_elements_base_vertex
+    GL_ARB_draw_instanced
+    GL_ARB_explicit_attrib_location
+    GL_ARB_fragment_coord_conventions
+    GL_ARB_fragment_program
+    GL_ARB_fragment_program_shadow
+    GL_ARB_fragment_shader
+    GL_ARB_framebuffer_object
+    GL_ARB_framebuffer_sRGB
+    GL_ARB_geometry_shader4
+    GL_ARB_half_float_pixel
+    GL_ARB_half_float_vertex
+    GL_ARB_imaging
+    GL_ARB_instanced_arrays
+    GL_ARB_map_buffer_range
+    GL_ARB_multisample
+    GL_ARB_multitexture
+    GL_ARB_occlusion_query
+    GL_ARB_occlusion_query2
+    GL_ARB_pixel_buffer_object
+    GL_ARB_point_parameters
+    GL_ARB_point_sprite
+    GL_ARB_provoking_vertex
+    GL_ARB_sampler_objects
+    GL_ARB_seamless_cube_map
+    GL_ARB_shader_bit_encoding
+    GL_ARB_shader_objects
+    GL_ARB_shader_texture_lod
+    GL_ARB_shading_language_100
+    GL_ARB_shadow
+    GL_ARB_shadow_ambient
+    GL_ARB_sync
+    GL_ARB_texture_border_clamp
+    GL_ARB_texture_buffer_object
+    GL_ARB_texture_compression
+    GL_ARB_texture_compression_rgtc
+    GL_ARB_texture_cube_map
+    GL_ARB_texture_env_add
+    GL_ARB_texture_env_combine
+    GL_ARB_texture_env_crossbar
+    GL_ARB_texture_env_dot3
+    GL_ARB_texture_float
+    GL_ARB_texture_mirrored_repeat
+    GL_ARB_texture_multisample
+    GL_ARB_texture_non_power_of_two
+    GL_ARB_texture_rectangle
+    GL_ARB_texture_rg
+    GL_ARB_texture_rgb10_a2ui
+    GL_ARB_texture_snorm
+    GL_ARB_timer_query
+    GL_ARB_transform_feedback2
+    GL_ARB_transform_feedback3
+    GL_ARB_transpose_matrix
+    GL_ARB_uniform_buffer_object
+    GL_ARB_vertex_array_bgra
+    GL_ARB_vertex_array_object
+    GL_ARB_vertex_buffer_object
+    GL_ARB_vertex_program
+    GL_ARB_vertex_shader
+    GL_ARB_vertex_type_2_10_10_10_rev
+    GL_ARB_window_pos
+    GL_ATI_draw_buffers
+    GL_ATI_envmap_bumpmap
+    GL_ATI_fragment_shader
+    GL_ATI_meminfo
+    GL_ATI_separate_stencil
+    GL_ATI_texture_compression_3dc
+    GL_ATI_texture_env_combine3
+    GL_ATI_texture_float
+    GL_ATI_texture_mirror_once
+    GL_EXT_abgr
+    GL_EXT_bgra
+    GL_EXT_bindable_uniform
+    GL_EXT_blend_color
+    GL_EXT_blend_equation_separate
+    GL_EXT_blend_func_separate
+    GL_EXT_blend_minmax
+    GL_EXT_blend_subtract
+    GL_EXT_compiled_vertex_array
+    GL_EXT_copy_buffer
+    GL_EXT_copy_texture
+    GL_EXT_direct_state_access
+    GL_EXT_draw_buffers2
+    GL_EXT_draw_instanced
+    GL_EXT_draw_range_elements
+    GL_EXT_fog_coord
+    GL_EXT_framebuffer_blit
+    GL_EXT_framebuffer_multisample
+    GL_EXT_framebuffer_object
+    GL_EXT_framebuffer_sRGB
+    GL_EXT_geometry_shader4
+    GL_EXT_gpu_program_parameters
+    GL_EXT_gpu_shader4
+    GL_EXT_histogram
+    GL_EXT_multi_draw_arrays
+    GL_EXT_packed_depth_stencil
+    GL_EXT_packed_float
+    GL_EXT_packed_pixels
+    GL_EXT_pixel_buffer_object
+    GL_EXT_point_parameters
+    GL_EXT_provoking_vertex
+    GL_EXT_rescale_normal
+    GL_EXT_secondary_color
+    GL_EXT_separate_specular_color
+    GL_EXT_shadow_funcs
+    GL_EXT_stencil_wrap
+    GL_EXT_subtexture
+    GL_EXT_texgen_reflection
+    GL_EXT_texture3D
+    GL_EXT_texture_array
+    GL_EXT_texture_buffer_object
+    GL_EXT_texture_buffer_object_rgb32
+    GL_EXT_texture_compression_latc
+    GL_EXT_texture_compression_rgtc
+    GL_EXT_texture_compression_s3tc
+    GL_EXT_texture_cube_map
+    GL_EXT_texture_edge_clamp
+    GL_EXT_texture_env_add
+    GL_EXT_texture_env_combine
+    GL_EXT_texture_env_dot3
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_texture_integer
+    GL_EXT_texture_lod
+    GL_EXT_texture_lod_bias
+    GL_EXT_texture_mirror_clamp
+    GL_EXT_texture_object
+    GL_EXT_texture_rectangle
+    GL_EXT_texture_sRGB
+    GL_EXT_texture_shared_exponent
+    GL_EXT_texture_snorm
+    GL_EXT_texture_swizzle
+    GL_EXT_timer_query
+    GL_EXT_transform_feedback
+    GL_EXT_vertex_array
+    GL_EXT_vertex_array_bgra
+    GL_IBM_texture_mirrored_repeat
+    GL_KTX_buffer_region
+    GL_NV_blend_square
+    GL_NV_conditional_render
+    GL_NV_copy_depth_to_color
+    GL_NV_explicit_multisample
+    GL_NV_float_buffer
+    GL_NV_half_float
+    GL_NV_primitive_restart
+    GL_NV_texgen_reflection
+    GL_SGIS_generate_mipmap
+    GL_SGIS_texture_edge_clamp
+    GL_SGIS_texture_lod
+    GL_SUN_multi_draw_arrays
+    GL_WIN_swap_hint
+    WGL_EXT_swap_control
+Number of texture units: 8
+Using shader environment.
+Using copy RTT.
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 8192
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 29.7660000324s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- 0.016000 seconds to render 5 frames.
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1280, 1024)
+Windowed mode.
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1280, 1024)
+Windowed mode.
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
+The window was minimized.
+Bootstrap to the start of init.init took 75.33s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 0.38s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.12s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
+Dump and make backups. took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Could not determine DPI scale factor:
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
+    ctypes.windll.user32.SetProcessDPIAware()
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
+AttributeError: function 'SetProcessDPIAware' not found
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.11s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.11s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.02s
+
+primary display bounds: (0, 0, 1280, 1024)
+Windowed mode.
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
+Vendor: 'ATI Technologies Inc.'
+Renderer: 'AMD 760G'
+Version: '3.3.10188 Compatibility Profile Context'
+Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
+Fixed-function is blacklisted.
+Extensions:
+    GL_AMDX_debug_output
+    GL_AMD_conservative_depth
+    GL_AMD_debug_output
+    GL_AMD_draw_buffers_blend
+    GL_AMD_name_gen_delete
+    GL_AMD_performance_monitor
+    GL_AMD_sample_positions
+    GL_AMD_shader_stencil_export
+    GL_ARB_blend_func_extended
+    GL_ARB_color_buffer_float
+    GL_ARB_copy_buffer
+    GL_ARB_depth_buffer_float
+    GL_ARB_depth_clamp
+    GL_ARB_depth_texture
+    GL_ARB_draw_buffers
+    GL_ARB_draw_buffers_blend
+    GL_ARB_draw_elements_base_vertex
+    GL_ARB_draw_instanced
+    GL_ARB_explicit_attrib_location
+    GL_ARB_fragment_coord_conventions
+    GL_ARB_fragment_program
+    GL_ARB_fragment_program_shadow
+    GL_ARB_fragment_shader
+    GL_ARB_framebuffer_object
+    GL_ARB_framebuffer_sRGB
+    GL_ARB_geometry_shader4
+    GL_ARB_half_float_pixel
+    GL_ARB_half_float_vertex
+    GL_ARB_imaging
+    GL_ARB_instanced_arrays
+    GL_ARB_map_buffer_range
+    GL_ARB_multisample
+    GL_ARB_multitexture
+    GL_ARB_occlusion_query
+    GL_ARB_occlusion_query2
+    GL_ARB_pixel_buffer_object
+    GL_ARB_point_parameters
+    GL_ARB_point_sprite
+    GL_ARB_provoking_vertex
+    GL_ARB_sampler_objects
+    GL_ARB_seamless_cube_map
+    GL_ARB_shader_bit_encoding
+    GL_ARB_shader_objects
+    GL_ARB_shader_texture_lod
+    GL_ARB_shading_language_100
+    GL_ARB_shadow
+    GL_ARB_shadow_ambient
+    GL_ARB_sync
+    GL_ARB_texture_border_clamp
+    GL_ARB_texture_buffer_object
+    GL_ARB_texture_compression
+    GL_ARB_texture_compression_rgtc
+    GL_ARB_texture_cube_map
+    GL_ARB_texture_env_add
+    GL_ARB_texture_env_combine
+    GL_ARB_texture_env_crossbar
+    GL_ARB_texture_env_dot3
+    GL_ARB_texture_float
+    GL_ARB_texture_mirrored_repeat
+    GL_ARB_texture_multisample
+    GL_ARB_texture_non_power_of_two
+    GL_ARB_texture_rectangle
+    GL_ARB_texture_rg
+    GL_ARB_texture_rgb10_a2ui
+    GL_ARB_texture_snorm
+    GL_ARB_timer_query
+    GL_ARB_transform_feedback2
+    GL_ARB_transform_feedback3
+    GL_ARB_transpose_matrix
+    GL_ARB_uniform_buffer_object
+    GL_ARB_vertex_array_bgra
+    GL_ARB_vertex_array_object
+    GL_ARB_vertex_buffer_object
+    GL_ARB_vertex_program
+    GL_ARB_vertex_shader
+    GL_ARB_vertex_type_2_10_10_10_rev
+    GL_ARB_window_pos
+    GL_ATI_draw_buffers
+    GL_ATI_envmap_bumpmap
+    GL_ATI_fragment_shader
+    GL_ATI_meminfo
+    GL_ATI_separate_stencil
+    GL_ATI_texture_compression_3dc
+    GL_ATI_texture_env_combine3
+    GL_ATI_texture_float
+    GL_ATI_texture_mirror_once
+    GL_EXT_abgr
+    GL_EXT_bgra
+    GL_EXT_bindable_uniform
+    GL_EXT_blend_color
+    GL_EXT_blend_equation_separate
+    GL_EXT_blend_func_separate
+    GL_EXT_blend_minmax
+    GL_EXT_blend_subtract
+    GL_EXT_compiled_vertex_array
+    GL_EXT_copy_buffer
+    GL_EXT_copy_texture
+    GL_EXT_direct_state_access
+    GL_EXT_draw_buffers2
+    GL_EXT_draw_instanced
+    GL_EXT_draw_range_elements
+    GL_EXT_fog_coord
+    GL_EXT_framebuffer_blit
+    GL_EXT_framebuffer_multisample
+    GL_EXT_framebuffer_object
+    GL_EXT_framebuffer_sRGB
+    GL_EXT_geometry_shader4
+    GL_EXT_gpu_program_parameters
+    GL_EXT_gpu_shader4
+    GL_EXT_histogram
+    GL_EXT_multi_draw_arrays
+    GL_EXT_packed_depth_stencil
+    GL_EXT_packed_float
+    GL_EXT_packed_pixels
+    GL_EXT_pixel_buffer_object
+    GL_EXT_point_parameters
+    GL_EXT_provoking_vertex
+    GL_EXT_rescale_normal
+    GL_EXT_secondary_color
+    GL_EXT_separate_specular_color
+    GL_EXT_shadow_funcs
+    GL_EXT_stencil_wrap
+    GL_EXT_subtexture
+    GL_EXT_texgen_reflection
+    GL_EXT_texture3D
+    GL_EXT_texture_array
+    GL_EXT_texture_buffer_object
+    GL_EXT_texture_buffer_object_rgb32
+    GL_EXT_texture_compression_latc
+    GL_EXT_texture_compression_rgtc
+    GL_EXT_texture_compression_s3tc
+    GL_EXT_texture_cube_map
+    GL_EXT_texture_edge_clamp
+    GL_EXT_texture_env_add
+    GL_EXT_texture_env_combine
+    GL_EXT_texture_env_dot3
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_texture_integer
+    GL_EXT_texture_lod
+    GL_EXT_texture_lod_bias
+    GL_EXT_texture_mirror_clamp
+    GL_EXT_texture_object
+    GL_EXT_texture_rectangle
+    GL_EXT_texture_sRGB
+    GL_EXT_texture_shared_exponent
+    GL_EXT_texture_snorm
+    GL_EXT_texture_swizzle
+    GL_EXT_timer_query
+    GL_EXT_transform_feedback
+    GL_EXT_vertex_array
+    GL_EXT_vertex_array_bgra
+    GL_IBM_texture_mirrored_repeat
+    GL_KTX_buffer_region
+    GL_NV_blend_square
+    GL_NV_conditional_render
+    GL_NV_copy_depth_to_color
+    GL_NV_explicit_multisample
+    GL_NV_float_buffer
+    GL_NV_half_float
+    GL_NV_primitive_restart
+    GL_NV_texgen_reflection
+    GL_SGIS_generate_mipmap
+    GL_SGIS_texture_edge_clamp
+    GL_SGIS_texture_lod
+    GL_SUN_multi_draw_arrays
+    GL_WIN_swap_hint
+    WGL_EXT_swap_control
+Number of texture units: 8
+Using shader environment.
+Using copy RTT.
+Using gl renderer.
+Texture testing:
+- Ignored error at start of testing: 501
+- Hardware max texture size: 8192
+- Incorrect pixel color in 64px texture: (e8, e8, e8)
+Textures are not rendering properly.
+
+primary display bounds: (0, 0, 1280, 1024)
+Windowed mode.
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
+Vendor: 'Google Inc.'
+Renderer: 'ANGLE (AMD 760G)'
+Version: 'OpenGL ES 2.0 (ANGLE 1.0.0.1166)'
+Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
+Extensions:
+    GL_ANGLE_framebuffer_blit
+    GL_ANGLE_framebuffer_multisample
+    GL_ANGLE_instanced_arrays
+    GL_ANGLE_pack_reverse_row_order
+    GL_ANGLE_texture_compression_dxt3
+    GL_ANGLE_texture_compression_dxt5
+    GL_ANGLE_texture_usage
+    GL_ANGLE_translated_shader_source
+    GL_EXT_occlusion_query_boolean
+    GL_EXT_read_format_bgra
+    GL_EXT_robustness
+    GL_EXT_texture_compression_dxt1
+    GL_EXT_texture_format_BGRA8888
+    GL_EXT_texture_storage
+    GL_NV_fence
+    GL_OES_element_index_uint
+    GL_OES_packed_depth_stencil
+    GL_OES_rgb8_rgba8
+    GL_OES_standard_derivatives
+    GL_OES_texture_float
+    GL_OES_texture_float_linear
+    GL_OES_texture_half_float
+    GL_OES_texture_half_float_linear
+    GL_OES_texture_npot
+Number of texture units: 16
+Using shader environment.
+Using copy RTT.
+Using angle renderer.
+Texture testing:
+- Hardware max texture size: 8192
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 77.7030000687s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.015000 seconds.
+- 0.015000 seconds to render 5 frames.
+Bootstrap to the start of init.init took 83.56s
+Early init took 0.02s
+Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 0.20s
+Loading persistent took 0.02s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.11s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
+Dump and make backups. took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Could not determine DPI scale factor:
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
+    ctypes.windll.user32.SetProcessDPIAware()
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
+AttributeError: function 'SetProcessDPIAware' not found
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.19s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.02s
+Performance test:
+Interface start took 0.01s
+
+primary display bounds: (0, 0, 1280, 1024)
+Windowed mode.
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
+Vendor: 'ATI Technologies Inc.'
+Renderer: 'AMD 760G'
+Version: '3.3.10188 Compatibility Profile Context'
+Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
+Fixed-function is blacklisted.
+Extensions:
+    GL_AMDX_debug_output
+    GL_AMD_conservative_depth
+    GL_AMD_debug_output
+    GL_AMD_draw_buffers_blend
+    GL_AMD_name_gen_delete
+    GL_AMD_performance_monitor
+    GL_AMD_sample_positions
+    GL_AMD_shader_stencil_export
+    GL_ARB_blend_func_extended
+    GL_ARB_color_buffer_float
+    GL_ARB_copy_buffer
+    GL_ARB_depth_buffer_float
+    GL_ARB_depth_clamp
+    GL_ARB_depth_texture
+    GL_ARB_draw_buffers
+    GL_ARB_draw_buffers_blend
+    GL_ARB_draw_elements_base_vertex
+    GL_ARB_draw_instanced
+    GL_ARB_explicit_attrib_location
+    GL_ARB_fragment_coord_conventions
+    GL_ARB_fragment_program
+    GL_ARB_fragment_program_shadow
+    GL_ARB_fragment_shader
+    GL_ARB_framebuffer_object
+    GL_ARB_framebuffer_sRGB
+    GL_ARB_geometry_shader4
+    GL_ARB_half_float_pixel
+    GL_ARB_half_float_vertex
+    GL_ARB_imaging
+    GL_ARB_instanced_arrays
+    GL_ARB_map_buffer_range
+    GL_ARB_multisample
+    GL_ARB_multitexture
+    GL_ARB_occlusion_query
+    GL_ARB_occlusion_query2
+    GL_ARB_pixel_buffer_object
+    GL_ARB_point_parameters
+    GL_ARB_point_sprite
+    GL_ARB_provoking_vertex
+    GL_ARB_sampler_objects
+    GL_ARB_seamless_cube_map
+    GL_ARB_shader_bit_encoding
+    GL_ARB_shader_objects
+    GL_ARB_shader_texture_lod
+    GL_ARB_shading_language_100
+    GL_ARB_shadow
+    GL_ARB_shadow_ambient
+    GL_ARB_sync
+    GL_ARB_texture_border_clamp
+    GL_ARB_texture_buffer_object
+    GL_ARB_texture_compression
+    GL_ARB_texture_compression_rgtc
+    GL_ARB_texture_cube_map
+    GL_ARB_texture_env_add
+    GL_ARB_texture_env_combine
+    GL_ARB_texture_env_crossbar
+    GL_ARB_texture_env_dot3
+    GL_ARB_texture_float
+    GL_ARB_texture_mirrored_repeat
+    GL_ARB_texture_multisample
+    GL_ARB_texture_non_power_of_two
+    GL_ARB_texture_rectangle
+    GL_ARB_texture_rg
+    GL_ARB_texture_rgb10_a2ui
+    GL_ARB_texture_snorm
+    GL_ARB_timer_query
+    GL_ARB_transform_feedback2
+    GL_ARB_transform_feedback3
+    GL_ARB_transpose_matrix
+    GL_ARB_uniform_buffer_object
+    GL_ARB_vertex_array_bgra
+    GL_ARB_vertex_array_object
+    GL_ARB_vertex_buffer_object
+    GL_ARB_vertex_program
+    GL_ARB_vertex_shader
+    GL_ARB_vertex_type_2_10_10_10_rev
+    GL_ARB_window_pos
+    GL_ATI_draw_buffers
+    GL_ATI_envmap_bumpmap
+    GL_ATI_fragment_shader
+    GL_ATI_meminfo
+    GL_ATI_separate_stencil
+    GL_ATI_texture_compression_3dc
+    GL_ATI_texture_env_combine3
+    GL_ATI_texture_float
+    GL_ATI_texture_mirror_once
+    GL_EXT_abgr
+    GL_EXT_bgra
+    GL_EXT_bindable_uniform
+    GL_EXT_blend_color
+    GL_EXT_blend_equation_separate
+    GL_EXT_blend_func_separate
+    GL_EXT_blend_minmax
+    GL_EXT_blend_subtract
+    GL_EXT_compiled_vertex_array
+    GL_EXT_copy_buffer
+    GL_EXT_copy_texture
+    GL_EXT_direct_state_access
+    GL_EXT_draw_buffers2
+    GL_EXT_draw_instanced
+    GL_EXT_draw_range_elements
+    GL_EXT_fog_coord
+    GL_EXT_framebuffer_blit
+    GL_EXT_framebuffer_multisample
+    GL_EXT_framebuffer_object
+    GL_EXT_framebuffer_sRGB
+    GL_EXT_geometry_shader4
+    GL_EXT_gpu_program_parameters
+    GL_EXT_gpu_shader4
+    GL_EXT_histogram
+    GL_EXT_multi_draw_arrays
+    GL_EXT_packed_depth_stencil
+    GL_EXT_packed_float
+    GL_EXT_packed_pixels
+    GL_EXT_pixel_buffer_object
+    GL_EXT_point_parameters
+    GL_EXT_provoking_vertex
+    GL_EXT_rescale_normal
+    GL_EXT_secondary_color
+    GL_EXT_separate_specular_color
+    GL_EXT_shadow_funcs
+    GL_EXT_stencil_wrap
+    GL_EXT_subtexture
+    GL_EXT_texgen_reflection
+    GL_EXT_texture3D
+    GL_EXT_texture_array
+    GL_EXT_texture_buffer_object
+    GL_EXT_texture_buffer_object_rgb32
+    GL_EXT_texture_compression_latc
+    GL_EXT_texture_compression_rgtc
+    GL_EXT_texture_compression_s3tc
+    GL_EXT_texture_cube_map
+    GL_EXT_texture_edge_clamp
+    GL_EXT_texture_env_add
+    GL_EXT_texture_env_combine
+    GL_EXT_texture_env_dot3
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_texture_integer
+    GL_EXT_texture_lod
+    GL_EXT_texture_lod_bias
+    GL_EXT_texture_mirror_clamp
+    GL_EXT_texture_object
+    GL_EXT_texture_rectangle
+    GL_EXT_texture_sRGB
+    GL_EXT_texture_shared_exponent
+    GL_EXT_texture_snorm
+    GL_EXT_texture_swizzle
+    GL_EXT_timer_query
+    GL_EXT_transform_feedback
+    GL_EXT_vertex_array
+    GL_EXT_vertex_array_bgra
+    GL_IBM_texture_mirrored_repeat
+    GL_KTX_buffer_region
+    GL_NV_blend_square
+    GL_NV_conditional_render
+    GL_NV_copy_depth_to_color
+    GL_NV_explicit_multisample
+    GL_NV_float_buffer
+    GL_NV_half_float
+    GL_NV_primitive_restart
+    GL_NV_texgen_reflection
+    GL_SGIS_generate_mipmap
+    GL_SGIS_texture_edge_clamp
+    GL_SGIS_texture_lod
+    GL_SUN_multi_draw_arrays
+    GL_WIN_swap_hint
+    WGL_EXT_swap_control
+Number of texture units: 8
+Using shader environment.
+Using copy RTT.
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 8192
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 85.3120000362s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.015000 seconds.
+- Frame drawn at 0.015000 seconds.
+- Frame drawn at 0.015000 seconds.
+- Frame drawn at 0.015000 seconds.
+- 0.015000 seconds to render 5 frames.
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
+    node.execute()
+  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'E:\\gal\\Ha&Blade/game/battles.rpy', 1472792225, 0).
+Bootstrap to the start of init.init took 87.53s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 0.22s
+Loading persistent took 0.02s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.11s
+Loading analysis data took 0.12s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Dump and make backups. took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Could not determine DPI scale factor:
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
+    ctypes.windll.user32.SetProcessDPIAware()
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
+AttributeError: function 'SetProcessDPIAware' not found
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.02s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.02s
+
+primary display bounds: (0, 0, 1280, 1024)
+Windowed mode.
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
+Vendor: 'ATI Technologies Inc.'
+Renderer: 'AMD 760G'
+Version: '3.3.10188 Compatibility Profile Context'
+Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
+Fixed-function is blacklisted.
+Extensions:
+    GL_AMDX_debug_output
+    GL_AMD_conservative_depth
+    GL_AMD_debug_output
+    GL_AMD_draw_buffers_blend
+    GL_AMD_name_gen_delete
+    GL_AMD_performance_monitor
+    GL_AMD_sample_positions
+    GL_AMD_shader_stencil_export
+    GL_ARB_blend_func_extended
+    GL_ARB_color_buffer_float
+    GL_ARB_copy_buffer
+    GL_ARB_depth_buffer_float
+    GL_ARB_depth_clamp
+    GL_ARB_depth_texture
+    GL_ARB_draw_buffers
+    GL_ARB_draw_buffers_blend
+    GL_ARB_draw_elements_base_vertex
+    GL_ARB_draw_instanced
+    GL_ARB_explicit_attrib_location
+    GL_ARB_fragment_coord_conventions
+    GL_ARB_fragment_program
+    GL_ARB_fragment_program_shadow
+    GL_ARB_fragment_shader
+    GL_ARB_framebuffer_object
+    GL_ARB_framebuffer_sRGB
+    GL_ARB_geometry_shader4
+    GL_ARB_half_float_pixel
+    GL_ARB_half_float_vertex
+    GL_ARB_imaging
+    GL_ARB_instanced_arrays
+    GL_ARB_map_buffer_range
+    GL_ARB_multisample
+    GL_ARB_multitexture
+    GL_ARB_occlusion_query
+    GL_ARB_occlusion_query2
+    GL_ARB_pixel_buffer_object
+    GL_ARB_point_parameters
+    GL_ARB_point_sprite
+    GL_ARB_provoking_vertex
+    GL_ARB_sampler_objects
+    GL_ARB_seamless_cube_map
+    GL_ARB_shader_bit_encoding
+    GL_ARB_shader_objects
+    GL_ARB_shader_texture_lod
+    GL_ARB_shading_language_100
+    GL_ARB_shadow
+    GL_ARB_shadow_ambient
+    GL_ARB_sync
+    GL_ARB_texture_border_clamp
+    GL_ARB_texture_buffer_object
+    GL_ARB_texture_compression
+    GL_ARB_texture_compression_rgtc
+    GL_ARB_texture_cube_map
+    GL_ARB_texture_env_add
+    GL_ARB_texture_env_combine
+    GL_ARB_texture_env_crossbar
+    GL_ARB_texture_env_dot3
+    GL_ARB_texture_float
+    GL_ARB_texture_mirrored_repeat
+    GL_ARB_texture_multisample
+    GL_ARB_texture_non_power_of_two
+    GL_ARB_texture_rectangle
+    GL_ARB_texture_rg
+    GL_ARB_texture_rgb10_a2ui
+    GL_ARB_texture_snorm
+    GL_ARB_timer_query
+    GL_ARB_transform_feedback2
+    GL_ARB_transform_feedback3
+    GL_ARB_transpose_matrix
+    GL_ARB_uniform_buffer_object
+    GL_ARB_vertex_array_bgra
+    GL_ARB_vertex_array_object
+    GL_ARB_vertex_buffer_object
+    GL_ARB_vertex_program
+    GL_ARB_vertex_shader
+    GL_ARB_vertex_type_2_10_10_10_rev
+    GL_ARB_window_pos
+    GL_ATI_draw_buffers
+    GL_ATI_envmap_bumpmap
+    GL_ATI_fragment_shader
+    GL_ATI_meminfo
+    GL_ATI_separate_stencil
+    GL_ATI_texture_compression_3dc
+    GL_ATI_texture_env_combine3
+    GL_ATI_texture_float
+    GL_ATI_texture_mirror_once
+    GL_EXT_abgr
+    GL_EXT_bgra
+    GL_EXT_bindable_uniform
+    GL_EXT_blend_color
+    GL_EXT_blend_equation_separate
+    GL_EXT_blend_func_separate
+    GL_EXT_blend_minmax
+    GL_EXT_blend_subtract
+    GL_EXT_compiled_vertex_array
+    GL_EXT_copy_buffer
+    GL_EXT_copy_texture
+    GL_EXT_direct_state_access
+    GL_EXT_draw_buffers2
+    GL_EXT_draw_instanced
+    GL_EXT_draw_range_elements
+    GL_EXT_fog_coord
+    GL_EXT_framebuffer_blit
+    GL_EXT_framebuffer_multisample
+    GL_EXT_framebuffer_object
+    GL_EXT_framebuffer_sRGB
+    GL_EXT_geometry_shader4
+    GL_EXT_gpu_program_parameters
+    GL_EXT_gpu_shader4
+    GL_EXT_histogram
+    GL_EXT_multi_draw_arrays
+    GL_EXT_packed_depth_stencil
+    GL_EXT_packed_float
+    GL_EXT_packed_pixels
+    GL_EXT_pixel_buffer_object
+    GL_EXT_point_parameters
+    GL_EXT_provoking_vertex
+    GL_EXT_rescale_normal
+    GL_EXT_secondary_color
+    GL_EXT_separate_specular_color
+    GL_EXT_shadow_funcs
+    GL_EXT_stencil_wrap
+    GL_EXT_subtexture
+    GL_EXT_texgen_reflection
+    GL_EXT_texture3D
+    GL_EXT_texture_array
+    GL_EXT_texture_buffer_object
+    GL_EXT_texture_buffer_object_rgb32
+    GL_EXT_texture_compression_latc
+    GL_EXT_texture_compression_rgtc
+    GL_EXT_texture_compression_s3tc
+    GL_EXT_texture_cube_map
+    GL_EXT_texture_edge_clamp
+    GL_EXT_texture_env_add
+    GL_EXT_texture_env_combine
+    GL_EXT_texture_env_dot3
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_texture_integer
+    GL_EXT_texture_lod
+    GL_EXT_texture_lod_bias
+    GL_EXT_texture_mirror_clamp
+    GL_EXT_texture_object
+    GL_EXT_texture_rectangle
+    GL_EXT_texture_sRGB
+    GL_EXT_texture_shared_exponent
+    GL_EXT_texture_snorm
+    GL_EXT_texture_swizzle
+    GL_EXT_timer_query
+    GL_EXT_transform_feedback
+    GL_EXT_vertex_array
+    GL_EXT_vertex_array_bgra
+    GL_IBM_texture_mirrored_repeat
+    GL_KTX_buffer_region
+    GL_NV_blend_square
+    GL_NV_conditional_render
+    GL_NV_copy_depth_to_color
+    GL_NV_explicit_multisample
+    GL_NV_float_buffer
+    GL_NV_half_float
+    GL_NV_primitive_restart
+    GL_NV_texgen_reflection
+    GL_SGIS_generate_mipmap
+    GL_SGIS_texture_edge_clamp
+    GL_SGIS_texture_lod
+    GL_SUN_multi_draw_arrays
+    GL_WIN_swap_hint
+    WGL_EXT_swap_control
+Number of texture units: 8
+Using shader environment.
+Using copy RTT.
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 8192
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 88.8120000362s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
 - Frame drawn at 0.016000 seconds.
@@ -943,25 +1233,264 @@ Total time until interface ready: 209.359999895s
 Traceback (most recent call last):
   File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
     node.execute()
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 806, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy-6.99.10-sdk\renpy\python.py", line 1577, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/battle.rpy", line 55, in <module>
-    battle.AddFighter(bob)
-NameError: name 'bob' is not defined
-Bootstrap to the start of init.init took 224.22s
-Early init took 0.00s
+  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'E:\\gal\\Ha&Blade/game/battles.rpy', 1472792225, 0).
+Bootstrap to the start of init.init took 96.88s
+Early init took 0.02s
 Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 0.22s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.19s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
+Dump and make backups. took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Could not determine DPI scale factor:
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
+    ctypes.windll.user32.SetProcessDPIAware()
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
+AttributeError: function 'SetProcessDPIAware' not found
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.11s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.02s
+Performance test:
+Interface start took 0.02s
+
+primary display bounds: (0, 0, 1280, 1024)
+Windowed mode.
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
+Vendor: 'ATI Technologies Inc.'
+Renderer: 'AMD 760G'
+Version: '3.3.10188 Compatibility Profile Context'
+Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
+Fixed-function is blacklisted.
+Extensions:
+    GL_AMDX_debug_output
+    GL_AMD_conservative_depth
+    GL_AMD_debug_output
+    GL_AMD_draw_buffers_blend
+    GL_AMD_name_gen_delete
+    GL_AMD_performance_monitor
+    GL_AMD_sample_positions
+    GL_AMD_shader_stencil_export
+    GL_ARB_blend_func_extended
+    GL_ARB_color_buffer_float
+    GL_ARB_copy_buffer
+    GL_ARB_depth_buffer_float
+    GL_ARB_depth_clamp
+    GL_ARB_depth_texture
+    GL_ARB_draw_buffers
+    GL_ARB_draw_buffers_blend
+    GL_ARB_draw_elements_base_vertex
+    GL_ARB_draw_instanced
+    GL_ARB_explicit_attrib_location
+    GL_ARB_fragment_coord_conventions
+    GL_ARB_fragment_program
+    GL_ARB_fragment_program_shadow
+    GL_ARB_fragment_shader
+    GL_ARB_framebuffer_object
+    GL_ARB_framebuffer_sRGB
+    GL_ARB_geometry_shader4
+    GL_ARB_half_float_pixel
+    GL_ARB_half_float_vertex
+    GL_ARB_imaging
+    GL_ARB_instanced_arrays
+    GL_ARB_map_buffer_range
+    GL_ARB_multisample
+    GL_ARB_multitexture
+    GL_ARB_occlusion_query
+    GL_ARB_occlusion_query2
+    GL_ARB_pixel_buffer_object
+    GL_ARB_point_parameters
+    GL_ARB_point_sprite
+    GL_ARB_provoking_vertex
+    GL_ARB_sampler_objects
+    GL_ARB_seamless_cube_map
+    GL_ARB_shader_bit_encoding
+    GL_ARB_shader_objects
+    GL_ARB_shader_texture_lod
+    GL_ARB_shading_language_100
+    GL_ARB_shadow
+    GL_ARB_shadow_ambient
+    GL_ARB_sync
+    GL_ARB_texture_border_clamp
+    GL_ARB_texture_buffer_object
+    GL_ARB_texture_compression
+    GL_ARB_texture_compression_rgtc
+    GL_ARB_texture_cube_map
+    GL_ARB_texture_env_add
+    GL_ARB_texture_env_combine
+    GL_ARB_texture_env_crossbar
+    GL_ARB_texture_env_dot3
+    GL_ARB_texture_float
+    GL_ARB_texture_mirrored_repeat
+    GL_ARB_texture_multisample
+    GL_ARB_texture_non_power_of_two
+    GL_ARB_texture_rectangle
+    GL_ARB_texture_rg
+    GL_ARB_texture_rgb10_a2ui
+    GL_ARB_texture_snorm
+    GL_ARB_timer_query
+    GL_ARB_transform_feedback2
+    GL_ARB_transform_feedback3
+    GL_ARB_transpose_matrix
+    GL_ARB_uniform_buffer_object
+    GL_ARB_vertex_array_bgra
+    GL_ARB_vertex_array_object
+    GL_ARB_vertex_buffer_object
+    GL_ARB_vertex_program
+    GL_ARB_vertex_shader
+    GL_ARB_vertex_type_2_10_10_10_rev
+    GL_ARB_window_pos
+    GL_ATI_draw_buffers
+    GL_ATI_envmap_bumpmap
+    GL_ATI_fragment_shader
+    GL_ATI_meminfo
+    GL_ATI_separate_stencil
+    GL_ATI_texture_compression_3dc
+    GL_ATI_texture_env_combine3
+    GL_ATI_texture_float
+    GL_ATI_texture_mirror_once
+    GL_EXT_abgr
+    GL_EXT_bgra
+    GL_EXT_bindable_uniform
+    GL_EXT_blend_color
+    GL_EXT_blend_equation_separate
+    GL_EXT_blend_func_separate
+    GL_EXT_blend_minmax
+    GL_EXT_blend_subtract
+    GL_EXT_compiled_vertex_array
+    GL_EXT_copy_buffer
+    GL_EXT_copy_texture
+    GL_EXT_direct_state_access
+    GL_EXT_draw_buffers2
+    GL_EXT_draw_instanced
+    GL_EXT_draw_range_elements
+    GL_EXT_fog_coord
+    GL_EXT_framebuffer_blit
+    GL_EXT_framebuffer_multisample
+    GL_EXT_framebuffer_object
+    GL_EXT_framebuffer_sRGB
+    GL_EXT_geometry_shader4
+    GL_EXT_gpu_program_parameters
+    GL_EXT_gpu_shader4
+    GL_EXT_histogram
+    GL_EXT_multi_draw_arrays
+    GL_EXT_packed_depth_stencil
+    GL_EXT_packed_float
+    GL_EXT_packed_pixels
+    GL_EXT_pixel_buffer_object
+    GL_EXT_point_parameters
+    GL_EXT_provoking_vertex
+    GL_EXT_rescale_normal
+    GL_EXT_secondary_color
+    GL_EXT_separate_specular_color
+    GL_EXT_shadow_funcs
+    GL_EXT_stencil_wrap
+    GL_EXT_subtexture
+    GL_EXT_texgen_reflection
+    GL_EXT_texture3D
+    GL_EXT_texture_array
+    GL_EXT_texture_buffer_object
+    GL_EXT_texture_buffer_object_rgb32
+    GL_EXT_texture_compression_latc
+    GL_EXT_texture_compression_rgtc
+    GL_EXT_texture_compression_s3tc
+    GL_EXT_texture_cube_map
+    GL_EXT_texture_edge_clamp
+    GL_EXT_texture_env_add
+    GL_EXT_texture_env_combine
+    GL_EXT_texture_env_dot3
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_texture_integer
+    GL_EXT_texture_lod
+    GL_EXT_texture_lod_bias
+    GL_EXT_texture_mirror_clamp
+    GL_EXT_texture_object
+    GL_EXT_texture_rectangle
+    GL_EXT_texture_sRGB
+    GL_EXT_texture_shared_exponent
+    GL_EXT_texture_snorm
+    GL_EXT_texture_swizzle
+    GL_EXT_timer_query
+    GL_EXT_transform_feedback
+    GL_EXT_vertex_array
+    GL_EXT_vertex_array_bgra
+    GL_IBM_texture_mirrored_repeat
+    GL_KTX_buffer_region
+    GL_NV_blend_square
+    GL_NV_conditional_render
+    GL_NV_copy_depth_to_color
+    GL_NV_explicit_multisample
+    GL_NV_float_buffer
+    GL_NV_half_float
+    GL_NV_primitive_restart
+    GL_NV_texgen_reflection
+    GL_SGIS_generate_mipmap
+    GL_SGIS_texture_edge_clamp
+    GL_SGIS_texture_lod
+    GL_SUN_multi_draw_arrays
+    GL_WIN_swap_hint
+    WGL_EXT_swap_control
+Number of texture units: 8
+Using shader environment.
+Using copy RTT.
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 8192
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 98.2809998989s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.015000 seconds.
+- Frame drawn at 0.015000 seconds.
+- Frame drawn at 0.015000 seconds.
+- Frame drawn at 0.031000 seconds.
+- 0.031000 seconds to render 5 frames.
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
+    node.execute()
+  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'E:\\gal\\Ha&Blade/game/battles.rpy', 1472792225, 0).
+Bootstrap to the start of init.init took 106.33s
+Early init took 0.00s
+Loader init took 0.05s
 Loading error handling took 0.03s
-Loading script took 0.23s
+Loading script took 0.22s
 Loading persistent took 0.02s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.03s
+Running init code took 0.12s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.02s
 Index archives took 0.00s
-Dump and make backups. took 0.16s
+Dump and make backups. took 0.17s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Could not determine DPI scale factor:
@@ -1174,30 +1703,513 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 225.453999996s
+Total time until interface ready: 107.546999931s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
 - Frame drawn at 0.016000 seconds.
 - Frame drawn at 0.016000 seconds.
 - Frame drawn at 0.016000 seconds.
-- Frame drawn at 0.031000 seconds.
-- 0.031000 seconds to render 5 frames.
+- Frame drawn at 0.016000 seconds.
+- 0.016000 seconds to render 5 frames.
 Traceback (most recent call last):
   File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
     node.execute()
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 806, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy-6.99.10-sdk\renpy\python.py", line 1577, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/battle.rpy", line 55, in <module>
-    battle.AddFighter(bob)
-NameError: name 'bob' is not defined
-Bootstrap to the start of init.init took 232.81s
-Early init took 0.02s
-Loader init took 0.02s
+  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'E:\\gal\\Ha&Blade/game/battles.rpy', 1472792225, 0).
+Bootstrap to the start of init.init took 110.22s
+Early init took 0.00s
+Loader init took 0.05s
 Loading error handling took 0.03s
-Loading script took 0.26s
+Loading script took 0.22s
+Loading persistent took 0.02s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.11s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Dump and make backups. took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Could not determine DPI scale factor:
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
+    ctypes.windll.user32.SetProcessDPIAware()
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
+AttributeError: function 'SetProcessDPIAware' not found
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.20s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.02s
+
+primary display bounds: (0, 0, 1280, 1024)
+Windowed mode.
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
+Vendor: 'ATI Technologies Inc.'
+Renderer: 'AMD 760G'
+Version: '3.3.10188 Compatibility Profile Context'
+Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
+Fixed-function is blacklisted.
+Extensions:
+    GL_AMDX_debug_output
+    GL_AMD_conservative_depth
+    GL_AMD_debug_output
+    GL_AMD_draw_buffers_blend
+    GL_AMD_name_gen_delete
+    GL_AMD_performance_monitor
+    GL_AMD_sample_positions
+    GL_AMD_shader_stencil_export
+    GL_ARB_blend_func_extended
+    GL_ARB_color_buffer_float
+    GL_ARB_copy_buffer
+    GL_ARB_depth_buffer_float
+    GL_ARB_depth_clamp
+    GL_ARB_depth_texture
+    GL_ARB_draw_buffers
+    GL_ARB_draw_buffers_blend
+    GL_ARB_draw_elements_base_vertex
+    GL_ARB_draw_instanced
+    GL_ARB_explicit_attrib_location
+    GL_ARB_fragment_coord_conventions
+    GL_ARB_fragment_program
+    GL_ARB_fragment_program_shadow
+    GL_ARB_fragment_shader
+    GL_ARB_framebuffer_object
+    GL_ARB_framebuffer_sRGB
+    GL_ARB_geometry_shader4
+    GL_ARB_half_float_pixel
+    GL_ARB_half_float_vertex
+    GL_ARB_imaging
+    GL_ARB_instanced_arrays
+    GL_ARB_map_buffer_range
+    GL_ARB_multisample
+    GL_ARB_multitexture
+    GL_ARB_occlusion_query
+    GL_ARB_occlusion_query2
+    GL_ARB_pixel_buffer_object
+    GL_ARB_point_parameters
+    GL_ARB_point_sprite
+    GL_ARB_provoking_vertex
+    GL_ARB_sampler_objects
+    GL_ARB_seamless_cube_map
+    GL_ARB_shader_bit_encoding
+    GL_ARB_shader_objects
+    GL_ARB_shader_texture_lod
+    GL_ARB_shading_language_100
+    GL_ARB_shadow
+    GL_ARB_shadow_ambient
+    GL_ARB_sync
+    GL_ARB_texture_border_clamp
+    GL_ARB_texture_buffer_object
+    GL_ARB_texture_compression
+    GL_ARB_texture_compression_rgtc
+    GL_ARB_texture_cube_map
+    GL_ARB_texture_env_add
+    GL_ARB_texture_env_combine
+    GL_ARB_texture_env_crossbar
+    GL_ARB_texture_env_dot3
+    GL_ARB_texture_float
+    GL_ARB_texture_mirrored_repeat
+    GL_ARB_texture_multisample
+    GL_ARB_texture_non_power_of_two
+    GL_ARB_texture_rectangle
+    GL_ARB_texture_rg
+    GL_ARB_texture_rgb10_a2ui
+    GL_ARB_texture_snorm
+    GL_ARB_timer_query
+    GL_ARB_transform_feedback2
+    GL_ARB_transform_feedback3
+    GL_ARB_transpose_matrix
+    GL_ARB_uniform_buffer_object
+    GL_ARB_vertex_array_bgra
+    GL_ARB_vertex_array_object
+    GL_ARB_vertex_buffer_object
+    GL_ARB_vertex_program
+    GL_ARB_vertex_shader
+    GL_ARB_vertex_type_2_10_10_10_rev
+    GL_ARB_window_pos
+    GL_ATI_draw_buffers
+    GL_ATI_envmap_bumpmap
+    GL_ATI_fragment_shader
+    GL_ATI_meminfo
+    GL_ATI_separate_stencil
+    GL_ATI_texture_compression_3dc
+    GL_ATI_texture_env_combine3
+    GL_ATI_texture_float
+    GL_ATI_texture_mirror_once
+    GL_EXT_abgr
+    GL_EXT_bgra
+    GL_EXT_bindable_uniform
+    GL_EXT_blend_color
+    GL_EXT_blend_equation_separate
+    GL_EXT_blend_func_separate
+    GL_EXT_blend_minmax
+    GL_EXT_blend_subtract
+    GL_EXT_compiled_vertex_array
+    GL_EXT_copy_buffer
+    GL_EXT_copy_texture
+    GL_EXT_direct_state_access
+    GL_EXT_draw_buffers2
+    GL_EXT_draw_instanced
+    GL_EXT_draw_range_elements
+    GL_EXT_fog_coord
+    GL_EXT_framebuffer_blit
+    GL_EXT_framebuffer_multisample
+    GL_EXT_framebuffer_object
+    GL_EXT_framebuffer_sRGB
+    GL_EXT_geometry_shader4
+    GL_EXT_gpu_program_parameters
+    GL_EXT_gpu_shader4
+    GL_EXT_histogram
+    GL_EXT_multi_draw_arrays
+    GL_EXT_packed_depth_stencil
+    GL_EXT_packed_float
+    GL_EXT_packed_pixels
+    GL_EXT_pixel_buffer_object
+    GL_EXT_point_parameters
+    GL_EXT_provoking_vertex
+    GL_EXT_rescale_normal
+    GL_EXT_secondary_color
+    GL_EXT_separate_specular_color
+    GL_EXT_shadow_funcs
+    GL_EXT_stencil_wrap
+    GL_EXT_subtexture
+    GL_EXT_texgen_reflection
+    GL_EXT_texture3D
+    GL_EXT_texture_array
+    GL_EXT_texture_buffer_object
+    GL_EXT_texture_buffer_object_rgb32
+    GL_EXT_texture_compression_latc
+    GL_EXT_texture_compression_rgtc
+    GL_EXT_texture_compression_s3tc
+    GL_EXT_texture_cube_map
+    GL_EXT_texture_edge_clamp
+    GL_EXT_texture_env_add
+    GL_EXT_texture_env_combine
+    GL_EXT_texture_env_dot3
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_texture_integer
+    GL_EXT_texture_lod
+    GL_EXT_texture_lod_bias
+    GL_EXT_texture_mirror_clamp
+    GL_EXT_texture_object
+    GL_EXT_texture_rectangle
+    GL_EXT_texture_sRGB
+    GL_EXT_texture_shared_exponent
+    GL_EXT_texture_snorm
+    GL_EXT_texture_swizzle
+    GL_EXT_timer_query
+    GL_EXT_transform_feedback
+    GL_EXT_vertex_array
+    GL_EXT_vertex_array_bgra
+    GL_IBM_texture_mirrored_repeat
+    GL_KTX_buffer_region
+    GL_NV_blend_square
+    GL_NV_conditional_render
+    GL_NV_copy_depth_to_color
+    GL_NV_explicit_multisample
+    GL_NV_float_buffer
+    GL_NV_half_float
+    GL_NV_primitive_restart
+    GL_NV_texgen_reflection
+    GL_SGIS_generate_mipmap
+    GL_SGIS_texture_edge_clamp
+    GL_SGIS_texture_lod
+    GL_SUN_multi_draw_arrays
+    GL_WIN_swap_hint
+    WGL_EXT_swap_control
+Number of texture units: 8
+Using shader environment.
+Using copy RTT.
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 8192
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 111.516000032s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- 0.016000 seconds to render 5 frames.
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
+    node.execute()
+  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'E:\\gal\\Ha&Blade/game/battles.rpy', 1472792225, 0).
+Bootstrap to the start of init.init took 139.34s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 0.30s
 Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.12s
+Loading analysis data took 0.11s
+Analyze and compile ATL took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
+Dump and make backups. took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Could not determine DPI scale factor:
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
+    ctypes.windll.user32.SetProcessDPIAware()
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
+AttributeError: function 'SetProcessDPIAware' not found
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.11s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.09s
+Running _start took 0.02s
+Performance test:
+Interface start took 0.02s
+
+primary display bounds: (0, 0, 1280, 1024)
+Windowed mode.
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
+Vendor: 'ATI Technologies Inc.'
+Renderer: 'AMD 760G'
+Version: '3.3.10188 Compatibility Profile Context'
+Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
+Fixed-function is blacklisted.
+Extensions:
+    GL_AMDX_debug_output
+    GL_AMD_conservative_depth
+    GL_AMD_debug_output
+    GL_AMD_draw_buffers_blend
+    GL_AMD_name_gen_delete
+    GL_AMD_performance_monitor
+    GL_AMD_sample_positions
+    GL_AMD_shader_stencil_export
+    GL_ARB_blend_func_extended
+    GL_ARB_color_buffer_float
+    GL_ARB_copy_buffer
+    GL_ARB_depth_buffer_float
+    GL_ARB_depth_clamp
+    GL_ARB_depth_texture
+    GL_ARB_draw_buffers
+    GL_ARB_draw_buffers_blend
+    GL_ARB_draw_elements_base_vertex
+    GL_ARB_draw_instanced
+    GL_ARB_explicit_attrib_location
+    GL_ARB_fragment_coord_conventions
+    GL_ARB_fragment_program
+    GL_ARB_fragment_program_shadow
+    GL_ARB_fragment_shader
+    GL_ARB_framebuffer_object
+    GL_ARB_framebuffer_sRGB
+    GL_ARB_geometry_shader4
+    GL_ARB_half_float_pixel
+    GL_ARB_half_float_vertex
+    GL_ARB_imaging
+    GL_ARB_instanced_arrays
+    GL_ARB_map_buffer_range
+    GL_ARB_multisample
+    GL_ARB_multitexture
+    GL_ARB_occlusion_query
+    GL_ARB_occlusion_query2
+    GL_ARB_pixel_buffer_object
+    GL_ARB_point_parameters
+    GL_ARB_point_sprite
+    GL_ARB_provoking_vertex
+    GL_ARB_sampler_objects
+    GL_ARB_seamless_cube_map
+    GL_ARB_shader_bit_encoding
+    GL_ARB_shader_objects
+    GL_ARB_shader_texture_lod
+    GL_ARB_shading_language_100
+    GL_ARB_shadow
+    GL_ARB_shadow_ambient
+    GL_ARB_sync
+    GL_ARB_texture_border_clamp
+    GL_ARB_texture_buffer_object
+    GL_ARB_texture_compression
+    GL_ARB_texture_compression_rgtc
+    GL_ARB_texture_cube_map
+    GL_ARB_texture_env_add
+    GL_ARB_texture_env_combine
+    GL_ARB_texture_env_crossbar
+    GL_ARB_texture_env_dot3
+    GL_ARB_texture_float
+    GL_ARB_texture_mirrored_repeat
+    GL_ARB_texture_multisample
+    GL_ARB_texture_non_power_of_two
+    GL_ARB_texture_rectangle
+    GL_ARB_texture_rg
+    GL_ARB_texture_rgb10_a2ui
+    GL_ARB_texture_snorm
+    GL_ARB_timer_query
+    GL_ARB_transform_feedback2
+    GL_ARB_transform_feedback3
+    GL_ARB_transpose_matrix
+    GL_ARB_uniform_buffer_object
+    GL_ARB_vertex_array_bgra
+    GL_ARB_vertex_array_object
+    GL_ARB_vertex_buffer_object
+    GL_ARB_vertex_program
+    GL_ARB_vertex_shader
+    GL_ARB_vertex_type_2_10_10_10_rev
+    GL_ARB_window_pos
+    GL_ATI_draw_buffers
+    GL_ATI_envmap_bumpmap
+    GL_ATI_fragment_shader
+    GL_ATI_meminfo
+    GL_ATI_separate_stencil
+    GL_ATI_texture_compression_3dc
+    GL_ATI_texture_env_combine3
+    GL_ATI_texture_float
+    GL_ATI_texture_mirror_once
+    GL_EXT_abgr
+    GL_EXT_bgra
+    GL_EXT_bindable_uniform
+    GL_EXT_blend_color
+    GL_EXT_blend_equation_separate
+    GL_EXT_blend_func_separate
+    GL_EXT_blend_minmax
+    GL_EXT_blend_subtract
+    GL_EXT_compiled_vertex_array
+    GL_EXT_copy_buffer
+    GL_EXT_copy_texture
+    GL_EXT_direct_state_access
+    GL_EXT_draw_buffers2
+    GL_EXT_draw_instanced
+    GL_EXT_draw_range_elements
+    GL_EXT_fog_coord
+    GL_EXT_framebuffer_blit
+    GL_EXT_framebuffer_multisample
+    GL_EXT_framebuffer_object
+    GL_EXT_framebuffer_sRGB
+    GL_EXT_geometry_shader4
+    GL_EXT_gpu_program_parameters
+    GL_EXT_gpu_shader4
+    GL_EXT_histogram
+    GL_EXT_multi_draw_arrays
+    GL_EXT_packed_depth_stencil
+    GL_EXT_packed_float
+    GL_EXT_packed_pixels
+    GL_EXT_pixel_buffer_object
+    GL_EXT_point_parameters
+    GL_EXT_provoking_vertex
+    GL_EXT_rescale_normal
+    GL_EXT_secondary_color
+    GL_EXT_separate_specular_color
+    GL_EXT_shadow_funcs
+    GL_EXT_stencil_wrap
+    GL_EXT_subtexture
+    GL_EXT_texgen_reflection
+    GL_EXT_texture3D
+    GL_EXT_texture_array
+    GL_EXT_texture_buffer_object
+    GL_EXT_texture_buffer_object_rgb32
+    GL_EXT_texture_compression_latc
+    GL_EXT_texture_compression_rgtc
+    GL_EXT_texture_compression_s3tc
+    GL_EXT_texture_cube_map
+    GL_EXT_texture_edge_clamp
+    GL_EXT_texture_env_add
+    GL_EXT_texture_env_combine
+    GL_EXT_texture_env_dot3
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_texture_integer
+    GL_EXT_texture_lod
+    GL_EXT_texture_lod_bias
+    GL_EXT_texture_mirror_clamp
+    GL_EXT_texture_object
+    GL_EXT_texture_rectangle
+    GL_EXT_texture_sRGB
+    GL_EXT_texture_shared_exponent
+    GL_EXT_texture_snorm
+    GL_EXT_texture_swizzle
+    GL_EXT_timer_query
+    GL_EXT_transform_feedback
+    GL_EXT_vertex_array
+    GL_EXT_vertex_array_bgra
+    GL_IBM_texture_mirrored_repeat
+    GL_KTX_buffer_region
+    GL_NV_blend_square
+    GL_NV_conditional_render
+    GL_NV_copy_depth_to_color
+    GL_NV_explicit_multisample
+    GL_NV_float_buffer
+    GL_NV_half_float
+    GL_NV_primitive_restart
+    GL_NV_texgen_reflection
+    GL_SGIS_generate_mipmap
+    GL_SGIS_texture_edge_clamp
+    GL_SGIS_texture_lod
+    GL_SUN_multi_draw_arrays
+    GL_WIN_swap_hint
+    WGL_EXT_swap_control
+Number of texture units: 8
+Using shader environment.
+Using copy RTT.
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 8192
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 140.921999931s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- 0.016000 seconds to render 5 frames.
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
+    node.execute()
+  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 591, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer what is not a function or string.
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
+    node.execute()
+  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 591, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer what is not a function or string.
+Bootstrap to the start of init.init took 230.16s
+Early init took 0.00s
+Loader init took 0.05s
+Loading error handling took 0.03s
+Loading script took 0.34s
+Loading persistent took 0.02s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.11s
 Loading analysis data took 0.05s
@@ -1225,7 +2237,7 @@ Save screen analysis took 0.11s
 Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.09s
-Running _start took 0.00s
+Running _start took 0.02s
 Performance test:
 Interface start took 0.02s
 
@@ -1417,30 +2429,261 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 234.282000065s
+Total time until interface ready: 231.703000069s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.000000 seconds.
 - Frame drawn at 0.016000 seconds.
-- Frame drawn at 0.032000 seconds.
-- Frame drawn at 0.032000 seconds.
+- Frame drawn at 0.016000 seconds.
 - Frame drawn at 0.032000 seconds.
 - 0.032000 seconds to render 5 frames.
 Traceback (most recent call last):
   File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
     node.execute()
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
-    next_node(renpy.game.context().lookup_return(pop=True))
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
-    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
-Exception: Could not find return label (u'E:\\gal\\Ha&Blade/game/battle.rpy', 1472724046, 0).
-Bootstrap to the start of init.init took 255.67s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.20s
-Loading persistent took 0.02s
+  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 591, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer what is not a function or string.
+Bootstrap to the start of init.init took 268.30s
+Early init took 0.02s
+Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 0.30s
+Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.11s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
+Dump and make backups. took 0.19s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Could not determine DPI scale factor:
+Traceback (most recent call last):
+  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
+    ctypes.windll.user32.SetProcessDPIAware()
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
+AttributeError: function 'SetProcessDPIAware' not found
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.19s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.09s
+Running _start took 0.02s
+Performance test:
+Interface start took 0.02s
+
+primary display bounds: (0, 0, 1280, 1024)
+Windowed mode.
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
+Vendor: 'ATI Technologies Inc.'
+Renderer: 'AMD 760G'
+Version: '3.3.10188 Compatibility Profile Context'
+Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
+Fixed-function is blacklisted.
+Extensions:
+    GL_AMDX_debug_output
+    GL_AMD_conservative_depth
+    GL_AMD_debug_output
+    GL_AMD_draw_buffers_blend
+    GL_AMD_name_gen_delete
+    GL_AMD_performance_monitor
+    GL_AMD_sample_positions
+    GL_AMD_shader_stencil_export
+    GL_ARB_blend_func_extended
+    GL_ARB_color_buffer_float
+    GL_ARB_copy_buffer
+    GL_ARB_depth_buffer_float
+    GL_ARB_depth_clamp
+    GL_ARB_depth_texture
+    GL_ARB_draw_buffers
+    GL_ARB_draw_buffers_blend
+    GL_ARB_draw_elements_base_vertex
+    GL_ARB_draw_instanced
+    GL_ARB_explicit_attrib_location
+    GL_ARB_fragment_coord_conventions
+    GL_ARB_fragment_program
+    GL_ARB_fragment_program_shadow
+    GL_ARB_fragment_shader
+    GL_ARB_framebuffer_object
+    GL_ARB_framebuffer_sRGB
+    GL_ARB_geometry_shader4
+    GL_ARB_half_float_pixel
+    GL_ARB_half_float_vertex
+    GL_ARB_imaging
+    GL_ARB_instanced_arrays
+    GL_ARB_map_buffer_range
+    GL_ARB_multisample
+    GL_ARB_multitexture
+    GL_ARB_occlusion_query
+    GL_ARB_occlusion_query2
+    GL_ARB_pixel_buffer_object
+    GL_ARB_point_parameters
+    GL_ARB_point_sprite
+    GL_ARB_provoking_vertex
+    GL_ARB_sampler_objects
+    GL_ARB_seamless_cube_map
+    GL_ARB_shader_bit_encoding
+    GL_ARB_shader_objects
+    GL_ARB_shader_texture_lod
+    GL_ARB_shading_language_100
+    GL_ARB_shadow
+    GL_ARB_shadow_ambient
+    GL_ARB_sync
+    GL_ARB_texture_border_clamp
+    GL_ARB_texture_buffer_object
+    GL_ARB_texture_compression
+    GL_ARB_texture_compression_rgtc
+    GL_ARB_texture_cube_map
+    GL_ARB_texture_env_add
+    GL_ARB_texture_env_combine
+    GL_ARB_texture_env_crossbar
+    GL_ARB_texture_env_dot3
+    GL_ARB_texture_float
+    GL_ARB_texture_mirrored_repeat
+    GL_ARB_texture_multisample
+    GL_ARB_texture_non_power_of_two
+    GL_ARB_texture_rectangle
+    GL_ARB_texture_rg
+    GL_ARB_texture_rgb10_a2ui
+    GL_ARB_texture_snorm
+    GL_ARB_timer_query
+    GL_ARB_transform_feedback2
+    GL_ARB_transform_feedback3
+    GL_ARB_transpose_matrix
+    GL_ARB_uniform_buffer_object
+    GL_ARB_vertex_array_bgra
+    GL_ARB_vertex_array_object
+    GL_ARB_vertex_buffer_object
+    GL_ARB_vertex_program
+    GL_ARB_vertex_shader
+    GL_ARB_vertex_type_2_10_10_10_rev
+    GL_ARB_window_pos
+    GL_ATI_draw_buffers
+    GL_ATI_envmap_bumpmap
+    GL_ATI_fragment_shader
+    GL_ATI_meminfo
+    GL_ATI_separate_stencil
+    GL_ATI_texture_compression_3dc
+    GL_ATI_texture_env_combine3
+    GL_ATI_texture_float
+    GL_ATI_texture_mirror_once
+    GL_EXT_abgr
+    GL_EXT_bgra
+    GL_EXT_bindable_uniform
+    GL_EXT_blend_color
+    GL_EXT_blend_equation_separate
+    GL_EXT_blend_func_separate
+    GL_EXT_blend_minmax
+    GL_EXT_blend_subtract
+    GL_EXT_compiled_vertex_array
+    GL_EXT_copy_buffer
+    GL_EXT_copy_texture
+    GL_EXT_direct_state_access
+    GL_EXT_draw_buffers2
+    GL_EXT_draw_instanced
+    GL_EXT_draw_range_elements
+    GL_EXT_fog_coord
+    GL_EXT_framebuffer_blit
+    GL_EXT_framebuffer_multisample
+    GL_EXT_framebuffer_object
+    GL_EXT_framebuffer_sRGB
+    GL_EXT_geometry_shader4
+    GL_EXT_gpu_program_parameters
+    GL_EXT_gpu_shader4
+    GL_EXT_histogram
+    GL_EXT_multi_draw_arrays
+    GL_EXT_packed_depth_stencil
+    GL_EXT_packed_float
+    GL_EXT_packed_pixels
+    GL_EXT_pixel_buffer_object
+    GL_EXT_point_parameters
+    GL_EXT_provoking_vertex
+    GL_EXT_rescale_normal
+    GL_EXT_secondary_color
+    GL_EXT_separate_specular_color
+    GL_EXT_shadow_funcs
+    GL_EXT_stencil_wrap
+    GL_EXT_subtexture
+    GL_EXT_texgen_reflection
+    GL_EXT_texture3D
+    GL_EXT_texture_array
+    GL_EXT_texture_buffer_object
+    GL_EXT_texture_buffer_object_rgb32
+    GL_EXT_texture_compression_latc
+    GL_EXT_texture_compression_rgtc
+    GL_EXT_texture_compression_s3tc
+    GL_EXT_texture_cube_map
+    GL_EXT_texture_edge_clamp
+    GL_EXT_texture_env_add
+    GL_EXT_texture_env_combine
+    GL_EXT_texture_env_dot3
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_texture_integer
+    GL_EXT_texture_lod
+    GL_EXT_texture_lod_bias
+    GL_EXT_texture_mirror_clamp
+    GL_EXT_texture_object
+    GL_EXT_texture_rectangle
+    GL_EXT_texture_sRGB
+    GL_EXT_texture_shared_exponent
+    GL_EXT_texture_snorm
+    GL_EXT_texture_swizzle
+    GL_EXT_timer_query
+    GL_EXT_transform_feedback
+    GL_EXT_vertex_array
+    GL_EXT_vertex_array_bgra
+    GL_IBM_texture_mirrored_repeat
+    GL_KTX_buffer_region
+    GL_NV_blend_square
+    GL_NV_conditional_render
+    GL_NV_copy_depth_to_color
+    GL_NV_explicit_multisample
+    GL_NV_float_buffer
+    GL_NV_half_float
+    GL_NV_primitive_restart
+    GL_NV_texgen_reflection
+    GL_SGIS_generate_mipmap
+    GL_SGIS_texture_edge_clamp
+    GL_SGIS_texture_lod
+    GL_SUN_multi_draw_arrays
+    GL_WIN_swap_hint
+    WGL_EXT_swap_control
+Number of texture units: 8
+Using shader environment.
+Using copy RTT.
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 8192
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 269.891000032s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.015000 seconds.
+- Frame drawn at 0.015000 seconds.
+- Frame drawn at 0.015000 seconds.
+- Frame drawn at 0.031000 seconds.
+- 0.031000 seconds to render 5 frames.
+Bootstrap to the start of init.init took 337.95s
+Early init took 0.00s
+Loader init took 0.05s
+Loading error handling took 0.05s
+Loading script took 0.23s
+Loading persistent took 0.02s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.19s
 Loading analysis data took 0.05s
 Analyze and compile ATL took 0.02s
 Index archives took 0.00s
@@ -1458,17 +2701,17 @@ AttributeError: function 'SetProcessDPIAware' not found
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.02s
+Init translation took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.19s
+Analyze screens took 0.03s
+Save screen analysis took 0.11s
 Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.09s
-Running _start took 0.00s
+Running _start took 0.02s
 Performance test:
-Interface start took 0.02s
+Interface start took 0.01s
 
 primary display bounds: (0, 0, 1280, 1024)
 Windowed mode.
@@ -1658,32 +2901,24 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 257.141000032s
+Total time until interface ready: 339.5s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
 - Frame drawn at 0.015000 seconds.
-- Frame drawn at 0.015000 seconds.
-- Frame drawn at 0.015000 seconds.
-- Frame drawn at 0.015000 seconds.
-- 0.015000 seconds to render 5 frames.
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
-    node.execute()
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
-    next_node(renpy.game.context().lookup_return(pop=True))
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
-    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
-Exception: Could not find return label (u'E:\\gal\\Ha&Blade/game/battle.rpy', 1472724046, 0).
-Bootstrap to the start of init.init took 294.62s
-Early init took 0.01s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.20s
-Loading persistent took 0.02s
+- Frame drawn at 0.031000 seconds.
+- Frame drawn at 0.031000 seconds.
+- Frame drawn at 0.031000 seconds.
+- 0.031000 seconds to render 5 frames.
+Bootstrap to the start of init.init took 415.16s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 0.30s
+Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.11s
-Analyze and compile ATL took 0.01s
+Running init code took 0.12s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
 Dump and make backups. took 0.17s
@@ -1703,7 +2938,7 @@ Init translation took 0.02s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.03s
-Save screen analysis took 0.09s
+Save screen analysis took 0.11s
 Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.11s
@@ -1899,28 +3134,20 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 296.062999964s
+Total time until interface ready: 416.671999931s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.015000 seconds.
-- Frame drawn at 0.015000 seconds.
-- Frame drawn at 0.015000 seconds.
-- Frame drawn at 0.015000 seconds.
-- 0.015000 seconds to render 5 frames.
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
-    node.execute()
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
-    next_node(renpy.game.context().lookup_return(pop=True))
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
-    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
-Exception: Could not find return label (u'E:\\gal\\Ha&Blade/game/battle.rpy', 1472724046, 0).
-Bootstrap to the start of init.init took 380.53s
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.016000 seconds.
+- 0.016000 seconds to render 5 frames.
+Bootstrap to the start of init.init took 496.98s
 Early init took 0.00s
-Loader init took 0.03s
+Loader init took 0.05s
 Loading error handling took 0.03s
-Loading script took 0.27s
-Loading persistent took 0.00s
+Loading script took 0.23s
+Loading persistent took 0.02s
 Could not determine DPI scale factor:
 Traceback (most recent call last):
   File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
@@ -2119,227 +3346,22 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 381.312999964s
-Bootstrap to the start of init.init took 393.59s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.05s
-Loading script took 0.19s
-Loading persistent took 0.02s
-Could not determine DPI scale factor:
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
-    ctypes.windll.user32.SetProcessDPIAware()
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
-AttributeError: function 'SetProcessDPIAware' not found
-DPI scale factor: 1.000000
-Interface start took 0.08s
-
-primary display bounds: (0, 0, 1280, 1024)
-Windowed mode.
-Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
-Vendor: 'ATI Technologies Inc.'
-Renderer: 'AMD 760G'
-Version: '3.3.10188 Compatibility Profile Context'
-Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
-Fixed-function is blacklisted.
-Extensions:
-    GL_AMDX_debug_output
-    GL_AMD_conservative_depth
-    GL_AMD_debug_output
-    GL_AMD_draw_buffers_blend
-    GL_AMD_name_gen_delete
-    GL_AMD_performance_monitor
-    GL_AMD_sample_positions
-    GL_AMD_shader_stencil_export
-    GL_ARB_blend_func_extended
-    GL_ARB_color_buffer_float
-    GL_ARB_copy_buffer
-    GL_ARB_depth_buffer_float
-    GL_ARB_depth_clamp
-    GL_ARB_depth_texture
-    GL_ARB_draw_buffers
-    GL_ARB_draw_buffers_blend
-    GL_ARB_draw_elements_base_vertex
-    GL_ARB_draw_instanced
-    GL_ARB_explicit_attrib_location
-    GL_ARB_fragment_coord_conventions
-    GL_ARB_fragment_program
-    GL_ARB_fragment_program_shadow
-    GL_ARB_fragment_shader
-    GL_ARB_framebuffer_object
-    GL_ARB_framebuffer_sRGB
-    GL_ARB_geometry_shader4
-    GL_ARB_half_float_pixel
-    GL_ARB_half_float_vertex
-    GL_ARB_imaging
-    GL_ARB_instanced_arrays
-    GL_ARB_map_buffer_range
-    GL_ARB_multisample
-    GL_ARB_multitexture
-    GL_ARB_occlusion_query
-    GL_ARB_occlusion_query2
-    GL_ARB_pixel_buffer_object
-    GL_ARB_point_parameters
-    GL_ARB_point_sprite
-    GL_ARB_provoking_vertex
-    GL_ARB_sampler_objects
-    GL_ARB_seamless_cube_map
-    GL_ARB_shader_bit_encoding
-    GL_ARB_shader_objects
-    GL_ARB_shader_texture_lod
-    GL_ARB_shading_language_100
-    GL_ARB_shadow
-    GL_ARB_shadow_ambient
-    GL_ARB_sync
-    GL_ARB_texture_border_clamp
-    GL_ARB_texture_buffer_object
-    GL_ARB_texture_compression
-    GL_ARB_texture_compression_rgtc
-    GL_ARB_texture_cube_map
-    GL_ARB_texture_env_add
-    GL_ARB_texture_env_combine
-    GL_ARB_texture_env_crossbar
-    GL_ARB_texture_env_dot3
-    GL_ARB_texture_float
-    GL_ARB_texture_mirrored_repeat
-    GL_ARB_texture_multisample
-    GL_ARB_texture_non_power_of_two
-    GL_ARB_texture_rectangle
-    GL_ARB_texture_rg
-    GL_ARB_texture_rgb10_a2ui
-    GL_ARB_texture_snorm
-    GL_ARB_timer_query
-    GL_ARB_transform_feedback2
-    GL_ARB_transform_feedback3
-    GL_ARB_transpose_matrix
-    GL_ARB_uniform_buffer_object
-    GL_ARB_vertex_array_bgra
-    GL_ARB_vertex_array_object
-    GL_ARB_vertex_buffer_object
-    GL_ARB_vertex_program
-    GL_ARB_vertex_shader
-    GL_ARB_vertex_type_2_10_10_10_rev
-    GL_ARB_window_pos
-    GL_ATI_draw_buffers
-    GL_ATI_envmap_bumpmap
-    GL_ATI_fragment_shader
-    GL_ATI_meminfo
-    GL_ATI_separate_stencil
-    GL_ATI_texture_compression_3dc
-    GL_ATI_texture_env_combine3
-    GL_ATI_texture_float
-    GL_ATI_texture_mirror_once
-    GL_EXT_abgr
-    GL_EXT_bgra
-    GL_EXT_bindable_uniform
-    GL_EXT_blend_color
-    GL_EXT_blend_equation_separate
-    GL_EXT_blend_func_separate
-    GL_EXT_blend_minmax
-    GL_EXT_blend_subtract
-    GL_EXT_compiled_vertex_array
-    GL_EXT_copy_buffer
-    GL_EXT_copy_texture
-    GL_EXT_direct_state_access
-    GL_EXT_draw_buffers2
-    GL_EXT_draw_instanced
-    GL_EXT_draw_range_elements
-    GL_EXT_fog_coord
-    GL_EXT_framebuffer_blit
-    GL_EXT_framebuffer_multisample
-    GL_EXT_framebuffer_object
-    GL_EXT_framebuffer_sRGB
-    GL_EXT_geometry_shader4
-    GL_EXT_gpu_program_parameters
-    GL_EXT_gpu_shader4
-    GL_EXT_histogram
-    GL_EXT_multi_draw_arrays
-    GL_EXT_packed_depth_stencil
-    GL_EXT_packed_float
-    GL_EXT_packed_pixels
-    GL_EXT_pixel_buffer_object
-    GL_EXT_point_parameters
-    GL_EXT_provoking_vertex
-    GL_EXT_rescale_normal
-    GL_EXT_secondary_color
-    GL_EXT_separate_specular_color
-    GL_EXT_shadow_funcs
-    GL_EXT_stencil_wrap
-    GL_EXT_subtexture
-    GL_EXT_texgen_reflection
-    GL_EXT_texture3D
-    GL_EXT_texture_array
-    GL_EXT_texture_buffer_object
-    GL_EXT_texture_buffer_object_rgb32
-    GL_EXT_texture_compression_latc
-    GL_EXT_texture_compression_rgtc
-    GL_EXT_texture_compression_s3tc
-    GL_EXT_texture_cube_map
-    GL_EXT_texture_edge_clamp
-    GL_EXT_texture_env_add
-    GL_EXT_texture_env_combine
-    GL_EXT_texture_env_dot3
-    GL_EXT_texture_filter_anisotropic
-    GL_EXT_texture_integer
-    GL_EXT_texture_lod
-    GL_EXT_texture_lod_bias
-    GL_EXT_texture_mirror_clamp
-    GL_EXT_texture_object
-    GL_EXT_texture_rectangle
-    GL_EXT_texture_sRGB
-    GL_EXT_texture_shared_exponent
-    GL_EXT_texture_snorm
-    GL_EXT_texture_swizzle
-    GL_EXT_timer_query
-    GL_EXT_transform_feedback
-    GL_EXT_vertex_array
-    GL_EXT_vertex_array_bgra
-    GL_IBM_texture_mirrored_repeat
-    GL_KTX_buffer_region
-    GL_NV_blend_square
-    GL_NV_conditional_render
-    GL_NV_copy_depth_to_color
-    GL_NV_explicit_multisample
-    GL_NV_float_buffer
-    GL_NV_half_float
-    GL_NV_primitive_restart
-    GL_NV_texgen_reflection
-    GL_SGIS_generate_mipmap
-    GL_SGIS_texture_edge_clamp
-    GL_SGIS_texture_lod
-    GL_SUN_multi_draw_arrays
-    GL_WIN_swap_hint
-    WGL_EXT_swap_control
-Number of texture units: 8
-Using shader environment.
-Using copy RTT.
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 8192
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Total time until interface ready: 394.312999964s
-Bootstrap to the start of init.init took 406.11s
+Total time until interface ready: 497.796999931s
+Bootstrap to the start of init.init took 504.66s
 Early init took 0.00s
 Loader init took 0.03s
-Loading error handling took 0.03s
+Loading error handling took 0.05s
 Loading script took 0.25s
 Loading persistent took 0.02s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.09s
+Running init code took 0.11s
 Loading analysis data took 0.05s
 Analyze and compile ATL took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
 Dump and make backups. took 0.17s
 Cleaning cache took 0.00s
-Making clean stores took 0.00s
+Making clean stores took 0.01s
 Could not determine DPI scale factor:
 Traceback (most recent call last):
   File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
@@ -2350,14 +3372,14 @@ AttributeError: function 'SetProcessDPIAware' not found
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.02s
+Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.09s
+Analyze screens took 0.05s
 Save screen analysis took 0.11s
 Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.09s
+Save bytecode. took 0.11s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.02s
@@ -2550,334 +3572,11 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 407.594000101s
+Total time until interface ready: 506.141000032s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.015000 seconds.
-- Frame drawn at 0.031000 seconds.
-- Frame drawn at 0.031000 seconds.
-- Frame drawn at 0.031000 seconds.
-- 0.031000 seconds to render 5 frames.
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
-    node.execute()
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
-    next_node(renpy.game.context().lookup_return(pop=True))
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
-    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
-Exception: Could not find return label (u'E:\\gal\\Ha&Blade/game/battle.rpy', 1472724046, 0).
-Bootstrap to the start of init.init took 437.97s
-Early init took 0.00s
-Loader init took 0.03s
-Loading error handling took 0.03s
-Loading script took 0.20s
-Loading persistent took 0.02s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.17s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Documents and Settings\\Administrator\\Application Data/RenPy/backups\\Ha&Blade':
-Dump and make backups. took 0.16s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Could not determine DPI scale factor:
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1527, in setup_dpi_scaling
-    ctypes.windll.user32.SetProcessDPIAware()
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 378, in __getattr__
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/ctypes/__init__.py", line 383, in __getitem__
-AttributeError: function 'SetProcessDPIAware' not found
-DPI scale factor: 1.000000
-Creating interface object took 0.02s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.11s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.09s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.01s
-
-primary display bounds: (0, 0, 1280, 1024)
-Windowed mode.
-Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
-Vendor: 'ATI Technologies Inc.'
-Renderer: 'AMD 760G'
-Version: '3.3.10188 Compatibility Profile Context'
-Display Info: <Info({'blit_sw_CC': False, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1024, 'current_w': 1280, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
-Fixed-function is blacklisted.
-Extensions:
-    GL_AMDX_debug_output
-    GL_AMD_conservative_depth
-    GL_AMD_debug_output
-    GL_AMD_draw_buffers_blend
-    GL_AMD_name_gen_delete
-    GL_AMD_performance_monitor
-    GL_AMD_sample_positions
-    GL_AMD_shader_stencil_export
-    GL_ARB_blend_func_extended
-    GL_ARB_color_buffer_float
-    GL_ARB_copy_buffer
-    GL_ARB_depth_buffer_float
-    GL_ARB_depth_clamp
-    GL_ARB_depth_texture
-    GL_ARB_draw_buffers
-    GL_ARB_draw_buffers_blend
-    GL_ARB_draw_elements_base_vertex
-    GL_ARB_draw_instanced
-    GL_ARB_explicit_attrib_location
-    GL_ARB_fragment_coord_conventions
-    GL_ARB_fragment_program
-    GL_ARB_fragment_program_shadow
-    GL_ARB_fragment_shader
-    GL_ARB_framebuffer_object
-    GL_ARB_framebuffer_sRGB
-    GL_ARB_geometry_shader4
-    GL_ARB_half_float_pixel
-    GL_ARB_half_float_vertex
-    GL_ARB_imaging
-    GL_ARB_instanced_arrays
-    GL_ARB_map_buffer_range
-    GL_ARB_multisample
-    GL_ARB_multitexture
-    GL_ARB_occlusion_query
-    GL_ARB_occlusion_query2
-    GL_ARB_pixel_buffer_object
-    GL_ARB_point_parameters
-    GL_ARB_point_sprite
-    GL_ARB_provoking_vertex
-    GL_ARB_sampler_objects
-    GL_ARB_seamless_cube_map
-    GL_ARB_shader_bit_encoding
-    GL_ARB_shader_objects
-    GL_ARB_shader_texture_lod
-    GL_ARB_shading_language_100
-    GL_ARB_shadow
-    GL_ARB_shadow_ambient
-    GL_ARB_sync
-    GL_ARB_texture_border_clamp
-    GL_ARB_texture_buffer_object
-    GL_ARB_texture_compression
-    GL_ARB_texture_compression_rgtc
-    GL_ARB_texture_cube_map
-    GL_ARB_texture_env_add
-    GL_ARB_texture_env_combine
-    GL_ARB_texture_env_crossbar
-    GL_ARB_texture_env_dot3
-    GL_ARB_texture_float
-    GL_ARB_texture_mirrored_repeat
-    GL_ARB_texture_multisample
-    GL_ARB_texture_non_power_of_two
-    GL_ARB_texture_rectangle
-    GL_ARB_texture_rg
-    GL_ARB_texture_rgb10_a2ui
-    GL_ARB_texture_snorm
-    GL_ARB_timer_query
-    GL_ARB_transform_feedback2
-    GL_ARB_transform_feedback3
-    GL_ARB_transpose_matrix
-    GL_ARB_uniform_buffer_object
-    GL_ARB_vertex_array_bgra
-    GL_ARB_vertex_array_object
-    GL_ARB_vertex_buffer_object
-    GL_ARB_vertex_program
-    GL_ARB_vertex_shader
-    GL_ARB_vertex_type_2_10_10_10_rev
-    GL_ARB_window_pos
-    GL_ATI_draw_buffers
-    GL_ATI_envmap_bumpmap
-    GL_ATI_fragment_shader
-    GL_ATI_meminfo
-    GL_ATI_separate_stencil
-    GL_ATI_texture_compression_3dc
-    GL_ATI_texture_env_combine3
-    GL_ATI_texture_float
-    GL_ATI_texture_mirror_once
-    GL_EXT_abgr
-    GL_EXT_bgra
-    GL_EXT_bindable_uniform
-    GL_EXT_blend_color
-    GL_EXT_blend_equation_separate
-    GL_EXT_blend_func_separate
-    GL_EXT_blend_minmax
-    GL_EXT_blend_subtract
-    GL_EXT_compiled_vertex_array
-    GL_EXT_copy_buffer
-    GL_EXT_copy_texture
-    GL_EXT_direct_state_access
-    GL_EXT_draw_buffers2
-    GL_EXT_draw_instanced
-    GL_EXT_draw_range_elements
-    GL_EXT_fog_coord
-    GL_EXT_framebuffer_blit
-    GL_EXT_framebuffer_multisample
-    GL_EXT_framebuffer_object
-    GL_EXT_framebuffer_sRGB
-    GL_EXT_geometry_shader4
-    GL_EXT_gpu_program_parameters
-    GL_EXT_gpu_shader4
-    GL_EXT_histogram
-    GL_EXT_multi_draw_arrays
-    GL_EXT_packed_depth_stencil
-    GL_EXT_packed_float
-    GL_EXT_packed_pixels
-    GL_EXT_pixel_buffer_object
-    GL_EXT_point_parameters
-    GL_EXT_provoking_vertex
-    GL_EXT_rescale_normal
-    GL_EXT_secondary_color
-    GL_EXT_separate_specular_color
-    GL_EXT_shadow_funcs
-    GL_EXT_stencil_wrap
-    GL_EXT_subtexture
-    GL_EXT_texgen_reflection
-    GL_EXT_texture3D
-    GL_EXT_texture_array
-    GL_EXT_texture_buffer_object
-    GL_EXT_texture_buffer_object_rgb32
-    GL_EXT_texture_compression_latc
-    GL_EXT_texture_compression_rgtc
-    GL_EXT_texture_compression_s3tc
-    GL_EXT_texture_cube_map
-    GL_EXT_texture_edge_clamp
-    GL_EXT_texture_env_add
-    GL_EXT_texture_env_combine
-    GL_EXT_texture_env_dot3
-    GL_EXT_texture_filter_anisotropic
-    GL_EXT_texture_integer
-    GL_EXT_texture_lod
-    GL_EXT_texture_lod_bias
-    GL_EXT_texture_mirror_clamp
-    GL_EXT_texture_object
-    GL_EXT_texture_rectangle
-    GL_EXT_texture_sRGB
-    GL_EXT_texture_shared_exponent
-    GL_EXT_texture_snorm
-    GL_EXT_texture_swizzle
-    GL_EXT_timer_query
-    GL_EXT_transform_feedback
-    GL_EXT_vertex_array
-    GL_EXT_vertex_array_bgra
-    GL_IBM_texture_mirrored_repeat
-    GL_KTX_buffer_region
-    GL_NV_blend_square
-    GL_NV_conditional_render
-    GL_NV_copy_depth_to_color
-    GL_NV_explicit_multisample
-    GL_NV_float_buffer
-    GL_NV_half_float
-    GL_NV_primitive_restart
-    GL_NV_texgen_reflection
-    GL_SGIS_generate_mipmap
-    GL_SGIS_texture_edge_clamp
-    GL_SGIS_texture_lod
-    GL_SUN_multi_draw_arrays
-    GL_WIN_swap_hint
-    WGL_EXT_swap_control
-Number of texture units: 8
-Using shader environment.
-Using copy RTT.
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 8192
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Total time until interface ready: 439.421999931s
-- Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.016000 seconds.
 - Frame drawn at 0.016000 seconds.
 - Frame drawn at 0.016000 seconds.
 - Frame drawn at 0.016000 seconds.
 - 0.016000 seconds to render 5 frames.
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
-    node.execute()
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
-    next_node(renpy.game.context().lookup_return(pop=True))
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
-    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
-Exception: Could not find return label (u'E:\\gal\\Ha&Blade/game/battle.rpy', 1472724046, 0).
-Traceback (most recent call last):
-  File "E:\renpy-6.99.10-sdk\renpy\execution.py", line 408, in run
-    node.execute()
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 806, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy-6.99.10-sdk\renpy\python.py", line 1577, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/battle.rpy", line 126, in <module>
-    battle.Start()
-  File "game/battle-engine/engine.rpy", line 320, in Start
-    self.RunBattle()
-  File "game/battle-engine/engine.rpy", line 644, in RunBattle
-    self.Show()
-  File "game/battle-engine/engine.rpy", line 674, in Show
-    extra.Show()
-  File "game/battle-engine/engine-extras.rpy", line 330, in Show
-    _battle.Pause(0.2)
-  File "game/battle-engine/engine.rpy", line 543, in Pause
-    return renpy.pause(duration, hard=hard)
-  File "E:\renpy-6.99.10-sdk\renpy\exports.py", line 1254, in pause
-    rv = renpy.ui.interact(mouse='pause', type='pause', roll_forward=roll_forward)
-  File "E:\renpy-6.99.10-sdk\renpy\ui.py", line 277, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 2425, in interact
-    repeat, rv = self.interact_core(preloads=preloads, **kwargs)
-  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 2779, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1848, in draw_screen
-    renpy.config.screen_height,
-  File "renpy/display/render.pyx", line 416, in renpy.display.render.render_screen (gen\renpy.display.render.c:6685)
-    rv = render(root, width, height, 0, 0)
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "E:\renpy-6.99.10-sdk\renpy\display\layout.py", line 649, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "E:\renpy-6.99.10-sdk\renpy\display\layout.py", line 649, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "E:\renpy-6.99.10-sdk\renpy\display\layout.py", line 649, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "renpy/display/accelerator.pyx", line 104, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:1965)
-    cr = render(child, widtho, heighto, st - self.child_st_base, at)
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "renpy/display/accelerator.pyx", line 104, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:1965)
-    cr = render(child, widtho, heighto, st - self.child_st_base, at)
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "game/battle-engine/engine-display.rpy", line 339, in render
-    childRender = renpy.render(disp, width, height, st, at)
-  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "E:\renpy-6.99.10-sdk\renpy\display\im.py", line 478, in render
-    im = cache.get(self)
-  File "E:\renpy-6.99.10-sdk\renpy\display\im.py", line 200, in get
-    surf = image.load()
-  File "E:\renpy-6.99.10-sdk\renpy\display\im.py", line 529, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "E:\renpy-6.99.10-sdk\renpy\loader.py", line 533, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'gfx/bandit.png'.

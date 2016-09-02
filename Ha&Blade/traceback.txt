@@ -1,100 +1,18 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' 'gfx/bandit.png'>:
-  File "game/battle.rpy", line 3, in script
-    python:
-  File "game/battle.rpy", line 126, in <module>
-    battle.Start()
-  File "game/battle-engine/engine.rpy", line 320, in Start
-    self.RunBattle()
-  File "game/battle-engine/engine.rpy", line 644, in RunBattle
-    self.Show()
-  File "game/battle-engine/engine.rpy", line 674, in Show
-    extra.Show()
-  File "game/battle-engine/engine-extras.rpy", line 330, in Show
-    _battle.Pause(0.2)
-  File "game/battle-engine/engine.rpy", line 543, in Pause
-    return renpy.pause(duration, hard=hard)
-  File "game/battle-engine/engine-display.rpy", line 339, in render
-    childRender = renpy.render(disp, width, height, st, at)
-IOError: Couldn't find file 'gfx/bandit.png'.
+While running game code:
+  File "game/script.rpy", line 130, in script
+    what "不错，看你骨骼清奇，是个可造之才。半个月后开学，尽早收拾启程吧。"
+Exception: Sayer what is not a function or string.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/battle.rpy", line 3, in script
-    python:
-  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 806, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy-6.99.10-sdk\renpy\python.py", line 1577, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/battle.rpy", line 126, in <module>
-    battle.Start()
-  File "game/battle-engine/engine.rpy", line 320, in Start
-    self.RunBattle()
-  File "game/battle-engine/engine.rpy", line 644, in RunBattle
-    self.Show()
-  File "game/battle-engine/engine.rpy", line 674, in Show
-    extra.Show()
-  File "game/battle-engine/engine-extras.rpy", line 330, in Show
-    _battle.Pause(0.2)
-  File "game/battle-engine/engine.rpy", line 543, in Pause
-    return renpy.pause(duration, hard=hard)
-  File "E:\renpy-6.99.10-sdk\renpy\exports.py", line 1254, in pause
-    rv = renpy.ui.interact(mouse='pause', type='pause', roll_forward=roll_forward)
-  File "E:\renpy-6.99.10-sdk\renpy\ui.py", line 277, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 2425, in interact
-    repeat, rv = self.interact_core(preloads=preloads, **kwargs)
-  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 2779, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "E:\renpy-6.99.10-sdk\renpy\display\core.py", line 1848, in draw_screen
-    renpy.config.screen_height,
-  File "renpy/display/render.pyx", line 416, in renpy.display.render.render_screen (gen\renpy.display.render.c:6685)
-    rv = render(root, width, height, 0, 0)
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "E:\renpy-6.99.10-sdk\renpy\display\layout.py", line 649, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "E:\renpy-6.99.10-sdk\renpy\display\layout.py", line 649, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "E:\renpy-6.99.10-sdk\renpy\display\layout.py", line 649, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "renpy/display/accelerator.pyx", line 104, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:1965)
-    cr = render(child, widtho, heighto, st - self.child_st_base, at)
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "renpy/display/accelerator.pyx", line 104, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:1965)
-    cr = render(child, widtho, heighto, st - self.child_st_base, at)
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "game/battle-engine/engine-display.rpy", line 339, in render
-    childRender = renpy.render(disp, width, height, st, at)
-  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
-    rv = d.render(widtho, heighto, st, at)
-  File "E:\renpy-6.99.10-sdk\renpy\display\im.py", line 478, in render
-    im = cache.get(self)
-  File "E:\renpy-6.99.10-sdk\renpy\display\im.py", line 200, in get
-    surf = image.load()
-  File "E:\renpy-6.99.10-sdk\renpy\display\im.py", line 529, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "E:\renpy-6.99.10-sdk\renpy\loader.py", line 533, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'gfx/bandit.png'.
+  File "game/script.rpy", line 130, in script
+    what "不错，看你骨骼清奇，是个可造之才。半个月后开学，尽早收拾启程吧。"
+  File "E:\renpy-6.99.10-sdk\renpy\ast.py", line 591, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer what is not a function or string.
 
 Windows-XP-5.1.2600-SP3
 Ren'Py 6.99.10.1227
