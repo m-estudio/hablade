@@ -110,19 +110,19 @@ init -1 python hide:
     ## 译注：如数值越大，则文本框周围的空白越多，文本框本身越小，
     ## 但这仅限于文本框图形本身，文字不受此参数影响。
 
-    # style.window.left_margin = 6
-    # style.window.right_margin = 6
-    # style.window.top_margin = 6
-    # style.window.bottom_margin = 6
+    #style.window.left_margin = 12
+    #style.window.right_margin = 12
+    #style.window.top_margin = 6
+    #style.window.bottom_margin = 24
 
     ## 填充参数是文本框窗口内的空白部分。
     ## 译注：与上一个参数作用正好相反，
     ## 它会影响文本框内文字的显示范围。
 
-    # style.window.left_padding = 6
-    # style.window.right_padding = 6
-    # style.window.top_padding = 6
-    # style.window.bottom_padding = 6
+    style.window.left_padding = 8
+    style.window.right_padding = 8
+    style.window.top_padding = 6
+    style.window.bottom_padding = 6
 
     ## 此参数控制窗口最低高度，并包含留边与填充参数。
 
@@ -183,7 +183,7 @@ init -1 python hide:
 
     ## 若您的游戏含有人物语音，请设置为True。
 
-    config.has_voice = False
+    config.has_voice = True
 
     ## 设置在您点击按钮和图片映射时的效果音。
 
@@ -192,12 +192,12 @@ init -1 python hide:
 
     ## 设置在您进入和退出游戏内菜单时的声音效果。
 
-    # config.enter_sound = "click.wav"
-    # config.exit_sound = "click.wav"
+    config.enter_sound = "sound/click.wav"
+    config.exit_sound = "sound/click.wav"
 
     ## 设置一个声音用于测试音量大小。
 
-    # config.sample_sound = "click.wav"
+    config.sample_sound = "sound/click.wav"
 
     ## 设置用户位于主菜单时的音乐。
 
@@ -223,19 +223,19 @@ init -1 python hide:
     ## 转场特效
 
     ## 从游戏中进入游戏内菜单时的转场特效。
-    config.enter_transition = None
+    config.enter_transition = fade
 
     ## 退出菜单回到游戏时的转场特效。
-    config.exit_transition = None
+    config.exit_transition = fade
 
     ## 在游戏菜单内进行切换时的转场特效。
-    config.intra_transition = None
+    config.intra_transition = fade
 
     ## 从主菜单进入游戏内菜单时的转场特效。
-    config.main_game_transition = None
+    config.main_game_transition = fade
 
     ## 退出菜单回到主菜单时的转场特效。
-    config.game_main_transition = None
+    config.game_main_transition = fade
 
     ## 从封面进入主菜单时的转场特效。
     ## 译注：封面(splashscreen)指的是打开游戏时
@@ -300,7 +300,7 @@ init -1 python hide:
 
     ## 默认的每秒显示文字数量，0为无限。
 
-    config.default_text_cps = 0
+    config.default_text_cps = 15
 
     ## 默认的自动阅读模式等待时间。
 
@@ -399,12 +399,12 @@ init python:
     ## 假如设置为“mygame-1.0”，则将会在生成Windows发行版时自动将游戏放置在
     ## “mygame-1.0-win”文件夹下，并生成mygame-1.0-win.zip的压缩包。
     ## 生成其他平台的发行版时除“win”字符以外其他依旧沿用此处设置。
-    build.directory_name = "HANA-Build-1.0"
+    build.directory_name = "Ha&Blade-Build"
 
     ## 游戏可执行程序的文件名。
     ## 例如设置为“mygame”时，则生成发行版后，
     ## 其游戏目录下可执行文件的文件名将会为“mygame.exe”，
-    build.executable_name = "SHIRAYUKI"
+    build.executable_name = "Ha&Blade"
 
     ## 如果设置为True，则此Ren'py游戏将包含升级信息，
     ## 使其允许升级程序运行。
@@ -449,26 +449,27 @@ init python:
     ## 此处用于定义游戏资源封包的名称。
     ## 译注：您需要预先在此处预先定义封包的名称后，
     ## 才能在下一个参数中设定使用对应名称的封包。
-    # build.archive('script', 'all')
-    # build.archive('image', 'all')
-    # build.archive('bg', 'all')
-    # build.archive('voice', 'all')
-    # build.archive('char', 'all')
-    # build.archive('sound', 'all')
-    # build.archive('data', 'all')
+    build.archive('script', 'all')
+    build.archive('image', 'all')
+    build.archive('bg', 'all')
+    build.archive('voice', 'all')
+    build.archive('char', 'all')
+    build.archive('sound', 'all')
+    build.archive('data', 'all')
 
     ## 若要将游戏资源文件封包，
     ## 请将它们定义为“archive”。
     ## 译注：此处用于定义需要放进封包的游戏资源文件列表，需要事先定义。
     ## 同时，在上方定义好archive的名称后，可以在下方直接使用自定义名称。
     # build.classify('game/*.rpy', 'script')
-    # build.classify('game/*.rpyc', 'script')
+    build.classify('game/*.rpyc', 'script')
     # build.classify('game/*.rpyb', 'script')
     # build.classify('game/bg/*.png', 'image')
     # build.classify('game/char/*.png', 'image')
-    # build.classify('game/image/*.png', 'image')
-    # build.classify('game/voice/*.ogg', 'voice')
-    # build.classify('game/sound/*.ogg', 'sound')
+    build.classify('game/image/*.png', 'image')
+    build.classify('game/image/*.jpg', 'image')
+    build.classify('game/voice/*.ogg', 'voice')
+    build.classify('game/sound/*.ogg', 'sound')
     # build.classify('game/data/**.*', 'data')
     # build.classify('game/data/mask/**.*', 'data')
 

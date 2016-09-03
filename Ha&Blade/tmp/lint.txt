@@ -1,0 +1,91 @@
+﻿
+Ren'Py 6.99.10.1227 lint report, generated at: Sat Sep 03 15:22:15 2016
+
+game/battle-engine/assets.rpy:45 Image testportrait1 uses file 'gfx/head1.jpg', which is not loadable.
+
+game/battle-engine/assets.rpy:46 Image testportrait2 uses file 'gfx/head2.jpg', which is not loadable.
+
+game/battle-engine/assets.rpy:47 Image testportrait3 uses file 'gfx/head3.jpg', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:146 Image knight crouch n uses file 'gfx/knight-jump-n-1.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:147 Image knight crouch e uses file 'gfx/knight-jump-e-1.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:148 Image knight crouch s uses file 'gfx/knight-jump-s-1.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:149 Image knight crouch w uses file 'gfx/knight-jump-w-1.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:151 Image knight leap n uses file 'gfx/knight-jump-n-2.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:152 Image knight leap e uses file 'gfx/knight-jump-e-2.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:153 Image knight leap s uses file 'gfx/knight-jump-s-2.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:154 Image knight leap w uses file 'gfx/knight-jump-w-2.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:211 Image mage crouch n uses file 'gfx/mage-jump-n-1.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:212 Image mage crouch e uses file 'gfx/mage-jump-e-1.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:213 Image mage crouch s uses file 'gfx/mage-jump-s-1.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:214 Image mage crouch w uses file 'gfx/mage-jump-w-1.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:216 Image mage leap n uses file 'gfx/mage-jump-n-2.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:217 Image mage leap e uses file 'gfx/mage-jump-e-2.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:218 Image mage leap s uses file 'gfx/mage-jump-s-2.png', which is not loadable.
+
+game/battle-engine/directional_sprites.rpy:219 Image mage leap w uses file 'gfx/mage-jump-w-2.png', which is not loadable.
+
+game/battle-engine/equipment-demo.rpy:20 Could not evaluate 'demo' in the who part of a say statement.
+Perhaps you forgot to define a character?
+
+game/battle-engine/equipment-demo.rpy:23 Could not evaluate 'demo' in the who part of a say statement.
+
+game/battle-engine/equipment-demo.rpy:25 Could not evaluate 'demo' in the who part of a say statement.
+
+game/battle-engine/equipment-demo.rpy:27 Could not evaluate 'demo' in the who part of a say statement.
+
+game/battle-engine/equipment-demo.rpy:29 Could not evaluate 'demo' in the who part of a say statement.
+
+game/battle-engine/example-area-scenery.rpy:9 Could not evaluate 'demo' in the who part of a say statement.
+
+game/battle-engine/example-area-scenery.rpy:10 Could not evaluate 'demo' in the who part of a say statement.
+
+game/battle-engine/example-area-scenery.rpy:11 Could not evaluate 'demo' in the who part of a say statement.
+
+game/battle-engine/example-area-scenery.rpy:12 Could not evaluate 'demo' in the who part of a say statement.
+
+game/battle-engine/hex_demo.rpy:9 Could not evaluate 'demo' in the who part of a say statement.
+
+game/battle-engine/hex_demo.rpy:11 Could not evaluate 'demo' in the who part of a say statement.
+
+game/battle-engine/hex_demo.rpy:13 Could not evaluate 'demo' in the who part of a say statement.
+
+game/deadending.rpy:28 The image named 'bg WC' was not declared.
+
+game/deadending.rpy:41 The image named 'bg homeRoad' was not declared.
+
+game/deadending.rpy:86 The image named 'bg comroom' was not declared.
+
+game/script.rpy:190 The image named 'bg shower' was not declared.
+
+game/script.rpy:209 The image named 'bg classroom' was not declared.
+
+game/script.rpy:215 The image named 'bg pg' was not declared.
+
+
+Statistics:
+
+The game contains 128 dialogue blocks, containing 809 words and 5,470
+characters, for an average of 6.3 words and 43 characters per block.
+
+The game contains 8 menus, 151 images, and 17 screens.
+
+
+Remember to set config.developer to False before releasing.
+
+Lint is not a substitute for thorough testing. Remember to update Ren'Py
+before releasing. New releases fix bugs and improve compatibility.

@@ -40,8 +40,6 @@ label start:
 # 暂停时间是通过pause命令实现的，具体请参阅官方文档。
     $ _dismiss_pause = True
 
-    "笑刀  序章限定版"
-
     scene bg sakuza
 
     "樱花开了，只有忍耐，才能看到鲜血洗去一地落英……"
@@ -197,7 +195,7 @@ label firstToPool:
     #不悦
     menu:
         "田径部":
-            call firstAthletic from _call_firstAthletic
+            call firstAthletic
         "放学回家部":
             jump deadHoming
         "电竞部":
