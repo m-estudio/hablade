@@ -16,7 +16,7 @@ init -1 python hide:
     ## 在游戏正式发布之前，应设置为False，
     ## 以避免用户使用开发者工具进行游戏作弊。
 
-    config.developer = True
+    config.developer = False
 
     ## 此选项控制游戏窗口的分辨率。
 
@@ -244,10 +244,10 @@ init -1 python hide:
     config.end_splash_transition = None
 
     ## 当游戏结束时返回主菜单的转场特效。
-    config.end_game_transition = None
+    config.end_game_transition = fade
 
     ## 当一个进度被加载时的转场特效。
-    config.after_load_transition = None
+    config.after_load_transition = fade
 
     ## 当一个游戏内窗口显示时的转场特效。
     ## 译注：游戏内窗口多指文本框。
@@ -265,10 +265,10 @@ init -1 python hide:
     config.nvl_adv_transition = dissolve
 
     ## 当确认取消按钮出现时的转场特效。
-    config.enter_yesno_transition = None
+    config.enter_yesno_transition = fade
 
     ## 当确认取消按钮隐藏时的转场特效
-    config.exit_yesno_transition = None
+    config.exit_yesno_transition = fade
 
     ## 当进入回放时的转场特效。
     config.enter_replay_transition = None

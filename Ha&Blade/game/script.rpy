@@ -30,7 +30,7 @@ init python:
     Uhp = 50
     Ujob = False
     Ubuff = 1.0
-    Uspeed = 10
+    Uspeed = 11
 
 label start:
 # 下面的参数用于设定是否允许用户通过点击或快进功能跳过转场特效。
@@ -40,7 +40,7 @@ label start:
 # 暂停时间是通过pause命令实现的，具体请参阅官方文档。
     $ _dismiss_pause = True
 
-    scene bg sakuza
+    scene bg sakuza with dissolve
 
     "樱花开了，只有忍耐，才能看到鲜血洗去一地落英……"
 
@@ -104,7 +104,7 @@ label start:
 
         battle.AddFaction('Enemies', playerFaction=False)
         whatSprite = BattleSprite('bandit', anchor=(0.5, 0.75), placeMark=(0,-100))
-        what1 = SimpleAIFighter("???", Speed=10, Attack=65535, Defence=65535, sprite=whatSprite)
+        what1 = SimpleAIFighter("???", Speed=5, Attack=65535, Defence=65535, sprite=whatSprite)
         what1.RegisterSkill(Library.Skills.KnifeAttack,16)
         battle.AddFighter(what1)        
         

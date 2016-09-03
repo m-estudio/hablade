@@ -196,8 +196,8 @@ init python:
     Library.Skills = object()
 
     # Now we're creating individual skills one by one and adding them to the library
-    Library.Skills.SwordAttack = AttackSkill(command=[('Attack', -1)], multiplier=1.2, sfx="audio/sword.wav")
-    Library.Skills.KnifeAttack = AttackSkill(command=[('Attack', -1)], multiplier=0.8, sfx="audio/knife.wav", name="Knife")
+    Library.Skills.SwordAttack = AttackSkill(command=[('Attack', -1)], multiplier=1.2, sfx="audio/sword.wav",name=u"攻击")
+    Library.Skills.KnifeAttack = AttackSkill(command=[('Attack', -1)], multiplier=0.8, sfx="audio/knife.wav", name=u"刀斫")
     Library.Skills.ClawAttack = AttackSkill(command=[('Attack', -1)], multiplier=1, sfx="audio/sword.wav", name="Slash")
 
     # Here we're setting the MoveSkill to not end the fighter's turn, so they can take a move and then perform some other action. 
