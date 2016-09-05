@@ -196,8 +196,8 @@ init python:
     Library.Skills = object()
 
     # Now we're creating individual skills one by one and adding them to the library
-    Library.Skills.SwordAttack = AttackSkill(command=[('Attack', -1)], multiplier=1.2, sfx="audio/sword.wav",name=u"攻击")
-    Library.Skills.KnifeAttack = AttackSkill(command=[('Attack', -1)], multiplier=0.8, sfx="audio/knife.wav", name=u"刀斫")
+    Library.Skills.SwordAttack = AttackSkill(command=[('剑击', -1)], multiplier=1.2, sfx="audio/sword.wav",name=u"剑击")
+    Library.Skills.KnifeAttack = AttackSkill(command=[('刀斫', -1)], multiplier=0.8, sfx="audio/knife.wav", name=u"刀斫")
     Library.Skills.ClawAttack = AttackSkill(command=[('Attack', -1)], multiplier=1, sfx="audio/sword.wav", name="Slash")
 
     # Here we're setting the MoveSkill to not end the fighter's turn, so they can take a move and then perform some other action. 
@@ -215,7 +215,7 @@ init python:
     # enable leaping up/down elevation levels or across short gaps.
     Library.Skills.ElevationMove = MoveSkill(endTurn=True, leap=True, leapUpThreshold=0.35, leapDownThreshold=0.5)
     
-    Library.Skills.Skip = SkipSkill(command=[('Skip', 1)], )
+    Library.Skills.Skip = SkipSkill(command=[('跳过回合', 1)], )
 
     # We'll use this WinSkill to allow the player to end demos that he's had enough of, which don't have
     # a win condition.
@@ -226,13 +226,13 @@ init python:
     # Spell 1 is a generic single-target attack
     # Spell 2 is a more-powerful version of that attack
     # Spell 3 is a middling power version which attacks everyone in the targeted faction.
-    Library.Skills.Fire1 = MagicFighterAttackSkill("Fire 1", command=[("Magic", 5), ("Fire 1", 1)], attributes=['magic', 'fire'], damage=5, cost=5, range=4, sprite=BattleSprite('fire 1', anchor=(0.5, 0.8)), pause=0.4, sfx="audio/fire.wav")
-    Library.Skills.Fire2 = MagicFighterAttackSkill("Fire 2", command=[("Magic", 5), ("Fire 2", 2)], attributes=['magic', 'fire'], damage=10, cost=8, range=4, sprite=BattleSprite('fire 2', anchor=(0.5, 0.8)), pause=0.8, sfx="audio/fire2.wav")
-    Library.Skills.Fire3 = MagicFactionAttackSkill("Fire 3", command=[("Magic", 5), ("Fire 3", 3)], attributes=['magic', 'fire'], damage=7, cost=10, sprite=BattleSprite('fire 1', anchor=(0.5, 0.8)), pause=0.4, sfx="audio/fire.wav")
+    Library.Skills.Fire1 = MagicFighterAttackSkill("火能力LV1", command=[("Magic", 5), ("火能力LV1", 1)], attributes=['magic', 'fire'], damage=5, cost=5, range=4, sprite=BattleSprite('fire 1', anchor=(0.5, 0.8)), pause=0.4, sfx="audio/fire.wav")
+    Library.Skills.Fire2 = MagicFighterAttackSkill("火能力LV2", command=[("Magic", 5), ("火能力LV2", 2)], attributes=['magic', 'fire'], damage=10, cost=8, range=4, sprite=BattleSprite('fire 2', anchor=(0.5, 0.8)), pause=0.8, sfx="audio/fire2.wav")
+    Library.Skills.Fire3 = MagicFactionAttackSkill("火能力LV3", command=[("Magic", 5), ("火能力LV3", 3)], attributes=['magic', 'fire'], damage=20, cost=10, sprite=BattleSprite('fire 1', anchor=(0.5, 0.8)), pause=0.8, sfx="audio/fire.wav")
 
-    Library.Skills.Water1 = MagicFighterAttackSkill("Water 1", command=[("Magic", 5), ("Water 1", 4)], attributes=['magic', 'water'], damage=5, cost=5, range=4, sprite=BattleSprite('water 1', anchor=(0.5, 0.8)), pause=0.6, sfx="audio/water.wav")
-    Library.Skills.Water2 = MagicFighterAttackSkill("Water 2", command=[("Magic", 5), ("Water 2", 5)], attributes=['magic', 'water'], damage=10, cost=8, range=4, sprite=BattleSprite('water 2', anchor=(0.5, 0.8)), pause=1.2, sfx="audio/water2.wav")
-    Library.Skills.Water3 = MagicFactionAttackSkill("Water 3", command=[("Magic", 5), ("Water 3", 6)], attributes=['magic', 'water'], damage=7, cost=10, sprite=BattleSprite('water 1', anchor=(0.5, 0.8)), pause=0.6, sfx="audio/water.wav")
+    Library.Skills.Water1 = MagicFighterAttackSkill("水能力LV1", command=[("Magic", 5), ("水能力LV1", 4)], attributes=['magic', 'water'], damage=5, cost=5, range=4, sprite=BattleSprite('water 1', anchor=(0.5, 0.8)), pause=0.6, sfx="audio/water.wav")
+    Library.Skills.Water2 = MagicFighterAttackSkill("水能力LV2", command=[("Magic", 5), ("水能力LV2", 5)], attributes=['magic', 'water'], damage=10, cost=8, range=4, sprite=BattleSprite('water 2', anchor=(0.5, 0.8)), pause=1.2, sfx="audio/water2.wav")
+    Library.Skills.Water3 = MagicFactionAttackSkill("水能力LV3", command=[("Magic", 5), ("水能力LV3", 6)], attributes=['magic', 'water'], damage=7, cost=10, sprite=BattleSprite('water 1', anchor=(0.5, 0.8)), pause=0.6, sfx="audio/water.wav")
 
     Library.Skills.Earth1 = MagicFighterAttackSkill("Earth 1", command=[("Magic", 5), ("Earth 1", 7)], attributes=['magic', 'earth'], damage=5, cost=5, range=4, sprite=BattleSprite('earth 1', anchor=(0.5, 0.8)), pause=0.6, sfx="audio/earth.wav")
     Library.Skills.Earth2 = MagicFighterAttackSkill("Earth 2", command=[("Magic", 5), ("Earth 2", 8)], attributes=['magic', 'earth'], damage=10, cost=8, range=4, sprite=BattleSprite('earth 2', anchor=(0.5, 0.8)), pause=0.6, sfx="audio/earth2.wav")

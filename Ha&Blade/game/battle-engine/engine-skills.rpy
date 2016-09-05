@@ -205,7 +205,7 @@ init -10 python:
             super(AttackSkill, self).__init__(name = name, command = command, hotkey = hotkey, weight = weight)
             
         def SetUpFighter(self, fighter):
-            fighter.RegisterStat("Attack", 10)
+            fighter.RegisterStat('Attack', 10)
         
         def PerformAction(self, fighter, target):
             if (target != None):
@@ -603,7 +603,7 @@ init -10 python:
     
     class SkipSkill(Skill):
         
-        def __init__(self, name="End Turn", command=None, hotkey='e', weight=0):
+        def __init__(self, name="Skip", command=None, hotkey='e', weight=0):
             self._targets = TargetData.NoTarget()
 
             super(SkipSkill, self).__init__(name=name, command=command, hotkey=hotkey, weight=weight)

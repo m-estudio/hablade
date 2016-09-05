@@ -1,20 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 94, in script
-    return
-Exception: Could not find return label (u'D:\\GALPRO\\hablade\\Ha&Blade/game/script.rpy', 1472905065, 6).
+  File "game/battle-engine/assets.rpy", line 160, in script
+    init python:
+  File "game/battle-engine/assets.rpy", line 231, in <module>
+    Library.Skills.Fire3 = MagicFactionAttackSkill("火能力LV3", command=[("Magic", 5), ("Fire 3", 3)], attributes=['magic', 'fire'], damage=20, cost=10, range=4, sprite=BattleSprite('fire 1', anchor=(0.5, 0.8)), pause=0.8, sfx="audio/fire.wav")
+TypeError: __init__() got an unexpected keyword argument 'range'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 94, in script
-    return
-  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
-    next_node(renpy.game.context().lookup_return(pop=True))
-  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
-    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
-Exception: Could not find return label (u'D:\\GALPRO\\hablade\\Ha&Blade/game/script.rpy', 1472905065, 6).
+  File "game/battle-engine/assets.rpy", line 160, in script
+    init python:
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\ast.py", line 806, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\python.py", line 1577, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/battle-engine/assets.rpy", line 231, in <module>
+    Library.Skills.Fire3 = MagicFactionAttackSkill("火能力LV3", command=[("Magic", 5), ("Fire 3", 3)], attributes=['magic', 'fire'], damage=20, cost=10, range=4, sprite=BattleSprite('fire 1', anchor=(0.5, 0.8)), pause=0.8, sfx="audio/fire.wav")
+TypeError: __init__() got an unexpected keyword argument 'range'
 
 Windows-8-6.2.9200
 Ren'Py 6.99.10.1227

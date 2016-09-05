@@ -16,7 +16,7 @@ init -1 python hide:
     ## 在游戏正式发布之前，应设置为False，
     ## 以避免用户使用开发者工具进行游戏作弊。
 
-    config.developer = False
+    config.developer = True
 
     ## 此选项控制游戏窗口的分辨率。
 

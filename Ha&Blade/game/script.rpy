@@ -94,12 +94,11 @@ label start:
             battle.AddFighter(ha1)
         if Ujob:
             haSprite = BattleSprite('geoff', anchor=(0.5, 0.8), placeMark=(0,-100))
-            ha1 = PlayerFighter("虫忍合", Speed=Uspeed*Ubuff, Attack=Uspeed*Ubuff, Defence=Udefence*Ubuff, MP=Uspecial*Ubuff, sprite=geoffSprite)
+            ha1 = PlayerFighter("虫忍合", Speed=Uspeed*Ubuff, Attack=Uspeed*Ubuff, Defence=Udefence*Ubuff, MP=Uspecial*Ubuff, sprite=haSprite)
             ha1.RegisterSkill(Library.Skills.SwordAttack)
             ha1.RegisterSkill(Library.Skills.Skip)
             ha1.RegisterSkill(Library.Skills.Fire1)
             ha1.RegisterSkill(Library.Skills.Water1)
-            ha1.RegisterSkill(Library.Skills.Earth1)
             battle.AddFighter(ha1)
 
         battle.AddFaction('Enemies', playerFaction=False)
