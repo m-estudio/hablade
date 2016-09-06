@@ -223,19 +223,19 @@ init -1 python hide:
     ## 转场特效
 
     ## 从游戏中进入游戏内菜单时的转场特效。
-    config.enter_transition = fade
+    config.enter_transition = dissolve
 
     ## 退出菜单回到游戏时的转场特效。
-    config.exit_transition = fade
+    config.exit_transition = dissolve
 
     ## 在游戏菜单内进行切换时的转场特效。
-    config.intra_transition = fade
+    config.intra_transition = dissolve
 
     ## 从主菜单进入游戏内菜单时的转场特效。
-    config.main_game_transition = fade
+    config.main_game_transition = dissolve
 
     ## 退出菜单回到主菜单时的转场特效。
-    config.game_main_transition = fade
+    config.game_main_transition = dissolve
 
     ## 从封面进入主菜单时的转场特效。
     ## 译注：封面(splashscreen)指的是打开游戏时
@@ -244,10 +244,10 @@ init -1 python hide:
     config.end_splash_transition = None
 
     ## 当游戏结束时返回主菜单的转场特效。
-    config.end_game_transition = fade
+    config.end_game_transition = dissolve
 
     ## 当一个进度被加载时的转场特效。
-    config.after_load_transition = fade
+    config.after_load_transition = dissolve
 
     ## 当一个游戏内窗口显示时的转场特效。
     ## 译注：游戏内窗口多指文本框。
@@ -265,10 +265,10 @@ init -1 python hide:
     config.nvl_adv_transition = dissolve
 
     ## 当确认取消按钮出现时的转场特效。
-    config.enter_yesno_transition = fade
+    config.enter_yesno_transition = dissolve
 
     ## 当确认取消按钮隐藏时的转场特效
-    config.exit_yesno_transition = fade
+    config.exit_yesno_transition = dissolve
 
     ## 当进入回放时的转场特效。
     config.enter_replay_transition = None
@@ -300,7 +300,7 @@ init -1 python hide:
 
     ## 默认的每秒显示文字数量，0为无限。
 
-    config.default_text_cps = 15
+    config.default_text_cps = 8
 
     ## 默认的自动阅读模式等待时间。
 

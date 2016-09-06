@@ -1,24 +1,104 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/battle-engine/assets.rpy", line 160, in script
-    init python:
-  File "game/battle-engine/assets.rpy", line 231, in <module>
-    Library.Skills.Fire3 = MagicFactionAttackSkill("火能力LV3", command=[("Magic", 5), ("Fire 3", 3)], attributes=['magic', 'fire'], damage=20, cost=10, range=4, sprite=BattleSprite('fire 1', anchor=(0.5, 0.8)), pause=0.8, sfx="audio/fire.wav")
-TypeError: __init__() got an unexpected keyword argument 'range'
+While processing the color property of anonymous style:
+  File "renpy/common/00start.rpy", line 218, in script call
+    python:
+  File "renpy/common/00start.rpy", line 85, in script call
+    python hide:
+  File "game/chap1.rpy", line 6, in script
+    flower "喂喂喂！各位同学走过路过不要错过啊！主宰你的高校生活，成为学生会的一员吧！来来来，拿张传单再走啊！"
+Exception: Color string must be 3, 4, 6, or 8 hex digits long.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/battle-engine/assets.rpy", line 160, in script
-    init python:
-  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\ast.py", line 806, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\python.py", line 1577, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/battle-engine/assets.rpy", line 231, in <module>
-    Library.Skills.Fire3 = MagicFactionAttackSkill("火能力LV3", command=[("Magic", 5), ("Fire 3", 3)], attributes=['magic', 'fire'], damage=20, cost=10, range=4, sprite=BattleSprite('fire 1', anchor=(0.5, 0.8)), pause=0.8, sfx="audio/fire.wav")
-TypeError: __init__() got an unexpected keyword argument 'range'
+  File "renpy/common/00start.rpy", line 218, in script call
+    python:
+  File "renpy/common/00start.rpy", line 85, in script call
+    python hide:
+  File "game/chap1.rpy", line 6, in script
+    flower "喂喂喂！各位同学走过路过不要错过啊！主宰你的高校生活，成为学生会的一员吧！来来来，拿张传单再走啊！"
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\ast.py", line 604, in execute
+    renpy.exports.say(who, what, interact=self.interact)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\exports.py", line 1122, in say
+    who(what, interact=interact)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\character.py", line 841, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\character.py", line 690, in do_display
+    **display_args)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\character.py", line 493, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\ui.py", line 277, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\display\core.py", line 2425, in interact
+    repeat, rv = self.interact_core(preloads=preloads, **kwargs)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\display\core.py", line 2779, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\display\core.py", line 1848, in draw_screen
+    renpy.config.screen_height,
+  File "renpy/display/render.pyx", line 416, in renpy.display.render.render_screen (gen\renpy.display.render.c:6685)
+    rv = render(root, width, height, 0, 0)
+  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
+    rv = d.render(widtho, heighto, st, at)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\display\layout.py", line 649, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
+    rv = d.render(widtho, heighto, st, at)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\display\transition.py", line 363, in render
+    top = render(self.new_widget, width, height, st, at)
+  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
+    rv = d.render(widtho, heighto, st, at)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\display\layout.py", line 649, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
+    rv = d.render(widtho, heighto, st, at)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\display\layout.py", line 649, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
+    rv = d.render(widtho, heighto, st, at)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\display\screen.py", line 610, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
+    rv = d.render(widtho, heighto, st, at)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\display\layout.py", line 649, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
+    rv = d.render(widtho, heighto, st, at)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\display\layout.py", line 1023, in render
+    st, at)
+  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 185, in renpy.display.render.render (gen\renpy.display.render.c:2857)
+    rv = d.render(widtho, heighto, st, at)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\display\layout.py", line 839, in render
+    surf = render(d, width - x, rh, cst, cat)
+  File "renpy/display/render.pyx", line 103, in renpy.display.render.render (gen\renpy.display.render.c:3319)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 147, in renpy.display.render.render (gen\renpy.display.render.c:2354)
+    xmaximum = style.xmaximum
+  File "module/gen/styleclass.pxi", line 389, in renpy.styledata.styleclass.Style.xmaximum.__get__ (gen\renpy.styledata.styleclass.c:10740)
+  File "renpy/style.pyx", line 470, in renpy.style.StyleCore._get (gen\renpy.style.c:7339)
+    build_style(self)
+  File "renpy/style.pyx", line 684, in renpy.style.build_style (gen\renpy.style.c:10614)
+    raise
+  File "renpy/style.pyx", line 681, in renpy.style.build_style (gen\renpy.style.c:10496)
+    pfw.function(s.cache, cache_priorities, priority, v)
+  File "gen/style_functions.pyx", line 718, in style_functions.color_property (gen\renpy.styledata.style_functions.c:7283)
+  File "D:\GALPRO\renpy-6.99.10-sdk\renpy\color.py", line 151, in __new__
+    raise Exception("Color string must be 3, 4, 6, or 8 hex digits long.")
+Exception: Color string must be 3, 4, 6, or 8 hex digits long.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.10.1227
